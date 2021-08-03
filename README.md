@@ -1,8 +1,8 @@
-# ![nf-core/rtnanopipeline](docs/images/nf-core-rtnanopipeline_logo.png)
+# NanoRTax
 
 **Real-time analysis pipeline for nanopore 16S rRNA data**.
 
-[![Docker](https://img.shields.io/docker/automated/nfcore/rtnanopipeline.svg)](https://hub.docker.com/r/nfcore/rtnanopipeline)
+[![Docker](https://img.shields.io/docker/automated/nfcore/rtnanopipeline.svg)](https://hub.docker.com/r/hecrp/nanortax)
 
 ## Introduction
 
