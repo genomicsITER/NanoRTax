@@ -1,0 +1,9 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 14px;
+    grid-row-gap: 0px;
+} 
+.div1 { grid-area: 2 / 1 / 5 / 4; }
+.div2 { grid-area: 2 / 4 / 5 / 6; }

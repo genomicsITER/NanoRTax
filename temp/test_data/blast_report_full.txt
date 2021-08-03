@@ -1,0 +1,17 @@
+seq_id	72361	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus vallismortis
+f2d3c5b5-c4c5-4af5-a6f6-e8dcb3127d69	260554	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus halotolerans
+2091cccf-fcf1-40a3-83b5-24c1ddf304d4	72360	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus mojavensis
+ef6758d7-8015-4f4d-bd88-87087f8e989b	1351	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecalis
+e51d7c83-222a-4bdf-8e9e-791649911120	1640	Bacteria	Firmicutes	Bacilli	Bacillales	Listeriaceae	Listeria	Listeria seeligeri
+39e56180-0776-4213-91b3-9104e3d90eb9	564	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia fergusonii
+6f7fac8c-b663-4b78-953e-a491b8b05723	624	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Shigella	Shigella sonnei
+3269808a-1324-4ee5-aed9-20eb6fdc1f97	260554	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus halotolerans
+853745c8-abdb-428d-bcc9-b9a980c721c5	545	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter koseri
+9b859c8c-ac54-493b-8176-db53612ceaec	72361	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus vallismortis
+9c6a77d8-7149-436f-872c-eb61c4c37163	54736	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella bongori
+84e629ce-57d3-4a1f-8fde-fb82e68b2af2	483913	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus inaquosorum
+5d1d189d-5dda-4107-8a84-6e7e83dff720	417373	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus equigenerosi
+c7dd64b2-3758-4bab-a6f7-e79f93ceb15e	148604	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus ingluviei
+a14fd101-afb7-4dfb-a00d-2187c8ada3f0	1280	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus aureus
+d8b681d0-17f7-45fd-a503-b521b4bfb0e6	59202	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
+a08b805a-d13c-43f9-ae45-5aa87f365010	

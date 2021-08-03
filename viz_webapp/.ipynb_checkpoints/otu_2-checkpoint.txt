@@ -1,0 +1,217 @@
+siella sp. 27MoSuero 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Klebsiella;e__Klebsiella pneumoniae 	100
+Bacteria;e__;e__;e__;e__;e__;e__bacterium endosymbiont of Onthophagus Taurus 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+Bacteria;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+Bacteria;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus haemolyticus 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__;e__;e__;e__uncultured Gammaproteobacteria bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Lactobacillaceae;e__Limosilactobacillus;e__Limosilactobacillus fermentum 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Lactobacillaceae;e__Lactobacillus;e__Lactobacillus sp. oral clone HT002 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__uncultured Bacillus sp. 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus sp. (in: Bacteria) 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus licheniformis 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Citrobacter;e__Citrobacter freundii 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus sp. K3(2011) 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus aureus 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus hominis 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured marine bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__bacterium endosymbiont of Leptocyclopodia brevicula 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Citrobacter;e__Citrobacter sp. FPO3 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus aureus 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus epidermidis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus subtilis 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus aureus 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Aeromonadales;e__Aeromonadaceae;e__Aeromonas;e__Aeromonas hydrophila 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Aeromonadales;e__Aeromonadaceae;e__Aeromonas;e__Aeromonas hydrophila 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Enterobacter;e__Enterobacter cloacae 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Paenibacillaceae;e__Paenibacillus;e__Paenibacillus macerans 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__ 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus subtilis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus sonorensis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus sp. M110(2010) 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus altitudinis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus licheniformis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__uncultured Bacillus sp. 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Lactobacillaceae;e__Lactobacillus;e__ 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Enterococcaceae;e__Enterococcus;e__Enterococcus faecalis 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Enterobacter;e__uncultured Enterobacter sp. 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus pasteuri 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Enterococcaceae;e__Enterococcus;e__Enterococcus faecalis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Alkalihalobacillus;e__Alkalihalobacillus okuhidensis 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Lactobacillaceae;e__Pediococcus;e__Pediococcus pentosaceus 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Lactobacillaceae;e__Levilactobacillus;e__Levilactobacillus brevis 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Pseudomonadales;e__Pseudomonadaceae;e__Pseudomonas;e__Pseudomonas sp. MT-I3 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__unidentified 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Enterococcaceae;e__Enterococcus;e__Enterococcus faecalis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Enterococcaceae;e__Enterococcus;e__Enterococcus faecalis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Enterococcaceae;e__Enterococcus;e__Enterococcus faecalis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Enterococcaceae;e__Enterococcus;e__Enterococcus faecalis 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Listeriaceae;e__Listeria;e__Listeria monocytogenes 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Salmonella;e__Salmonella sp. SSBC3 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__;e__ 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Virgibacillus;e__Virgibacillus halodenitrificans 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Lysinibacillus;e__Lysinibacillus fusiformis 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Lysinibacillus;e__Lysinibacillus sphaericus 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__ 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Enterobacter;e__Enterobacter cloacae 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Salmonella;e__Salmonella enterica 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Alphaproteobacteria;e__;e__;e__;e__uncultured Alphaproteobacteria bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__unidentified marine bacterioplankton 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__unidentified marine bacterioplankton 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__ 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Listeriaceae;e__Listeria;e__Listeria monocytogenes 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Paenibacillaceae;e__Paenibacillus;e__Paenibacillus sp. 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus stratosphericus 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Aquisalibacillus;e__Aquisalibacillus elongatus 	100
+Bacteria;e__;e__;e__;e__;e__;e__bacterium endosymbiont of Onthophagus Taurus 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus sp. JCM 19046 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__;e__;e__;e__ 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Listeriaceae;e__Listeria;e__Listeria welshimeri 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__ 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+;e__;e__;e__;e__;e__;e__ 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus kloosii 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Virgibacillus;e__uncultured Virgibacillus sp. 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus aureus 	100
+;e__;e__;e__;e__;e__;e__unidentified 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__ 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__;e__;e__;e__;e__;e__ 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus licheniformis 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__uncultured Bacillus sp. 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Lactobacillaceae;e__Lactobacillus;e__Lactobacillus sp. NBRC 101665 	100
+Bacteria;e__Actinobacteria;e__Actinomycetia;e__Streptomycetales;e__Streptomycetaceae;e__Streptomyces;e__Streptomyces pactum 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Enterobacter;e__Enterobacter sp. enrichment culture clone NK-3 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Enterobacter;e__Enterobacter cloacae 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus aureus 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Mammaliicoccus;e__Mammaliicoccus sciuri 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Mammaliicoccus;e__Mammaliicoccus sciuri 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus nepalensis 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+;e__;e__;e__;e__;e__;e__uncultured organism 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__Bacillus sp. PS4B-B309 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus aureus 	100
+Bacteria;e__Proteobacteria;e__Alphaproteobacteria;e__;e__;e__;e__uncultured Alphaproteobacteria bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Yersiniaceae;e__Serratia;e__Serratia sp. P4588 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus hominis 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Staphylococcaceae;e__Staphylococcus;e__Staphylococcus epidermidis 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Salmonella;e__Salmonella enterica 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Listeriaceae;e__Listeria;e__Listeria monocytogenes 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Lactobacillaceae;e__Lactobacillus;e__Lactobacillus sp. NBRC 101665 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Yersiniaceae;e__Serratia;e__Serratia liquefaciens 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Planococcaceae;e__Sporosarcina;e__uncultured Sporosarcina sp. 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Bacillales;e__Bacillaceae;e__Bacillus;e__uncultured Bacillus sp. 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Yersiniaceae;e__Serratia;e__Serratia marcescens 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Enterococcaceae;e__Enterococcus;e__Enterococcus faecalis 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+Bacteria;e__Firmicutes;e__Bacilli;e__Lactobacillales;e__Carnobacteriaceae;e__Trichococcus;e__Trichococcus sp. PD9 	100
+Bacteria;e__;e__;e__;e__;e__;e__uncultured bacterium 	100
+;e__;e__;e__;e__;e__;e__metagenome 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Salmonella;e__Salmonella sp. Inspire75 	100
+Bacteria;e__Proteobacteria;e__Gammaproteobacteria;e__Enterobacterales;e__Enterobacteriaceae;e__Salmonella;e__Salmonella enterica 	100
+Bacteria;e__Firmicutes;e__Bacil

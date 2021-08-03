@@ -1,0 +1,410 @@
+seq_id	2618							Plasmid pRE-I
+f2d3c5b5-c4c5-4af5-a6f6-e8dcb3127d6_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5393_h=26_tart_time=2019-06-26T22:02:10Z	2618							Plasmid pRE-I
+2091cccf-fcf1-40a3-83b5-24c1ddf304d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5891_h=7_tart_time=2019-06-26T22:02:13Z	2618							Plasmid pRE-I
+ef6758d7-8015-4f4d-bd88-87087f8e989_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4980_h=21_tart_time=2019-06-26T22:22:41Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+e51d7c83-222a-4bdf-8e9e-79164991112_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5581_h=9_tart_time=2019-06-26T22:02:02Z	2618							Plasmid pRE-I
+39e56180-0776-4213-91b3-9104e3d90eb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6253_h=12_tart_time=2019-06-26T22:02:02Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+6f7fac8c-b663-4b78-953e-a491b8b0572_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6019_h=39_tart_time=2019-06-26T22:22:49Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+3269808a-1324-4ee5-aed9-20eb6fdc1f9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5194_h=48_tart_time=2019-06-26T22:02:08Z	2618							Plasmid pRE-I
+853745c8-abdb-428d-bcc9-b9a980c721c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5387_h=21_tart_time=2019-06-26T22:23:13Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+9b859c8c-ac54-493b-8176-db53612ceae_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4731_h=17_tart_time=2019-06-26T22:23:02Z	2618							Plasmid pRE-I
+9c6a77d8-7149-436f-872c-eb61c4c3716_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4930_h=12_tart_time=2019-06-26T22:02:06Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+84e629ce-57d3-4a1f-8fde-fb82e68b2af_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4469_h=29_tart_time=2019-06-26T22:02:19Z	2618							Plasmid pRE-I
+5d1d189d-5dda-4107-8a84-6e7e83dff72_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5561_h=30_tart_time=2019-06-26T22:22:49Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+c7dd64b2-3758-4bab-a6f7-e79f93ceb15_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5629_h=4_tart_time=2019-06-26T22:23:05Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+a14fd101-afb7-4dfb-a00d-2187c8ada3f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3084_h=24_tart_time=2019-06-26T22:23:04Z	2720	
+d8b681d0-17f7-45fd-a503-b521b4bfb0e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5360_h=1_tart_time=2019-06-26T22:23:03Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+a08b805a-d13c-43f9-ae45-5aa87f36501_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4317_h=31_tart_time=2019-06-26T22:22:52Z	
+seq_id	2618							Plasmid pRE-I
+f2d3c5b5-c4c5-4af5-a6f6-e8dcb3127d6_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5393_h=26_tart_time=2019-06-26T22:02:10Z	2618							Plasmid pRE-I
+2091cccf-fcf1-40a3-83b5-24c1ddf304d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5891_h=7_tart_time=2019-06-26T22:02:13Z	2618							Plasmid pRE-I
+ef6758d7-8015-4f4d-bd88-87087f8e989_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4980_h=21_tart_time=2019-06-26T22:22:41Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+e51d7c83-222a-4bdf-8e9e-79164991112_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5581_h=9_tart_time=2019-06-26T22:02:02Z	2618							Plasmid pRE-I
+39e56180-0776-4213-91b3-9104e3d90eb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6253_h=12_tart_time=2019-06-26T22:02:02Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+6f7fac8c-b663-4b78-953e-a491b8b0572_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6019_h=39_tart_time=2019-06-26T22:22:49Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+3269808a-1324-4ee5-aed9-20eb6fdc1f9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5194_h=48_tart_time=2019-06-26T22:02:08Z	2618							Plasmid pRE-I
+853745c8-abdb-428d-bcc9-b9a980c721c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5387_h=21_tart_time=2019-06-26T22:23:13Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+9b859c8c-ac54-493b-8176-db53612ceae_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4731_h=17_tart_time=2019-06-26T22:23:02Z	2618							Plasmid pRE-I
+9c6a77d8-7149-436f-872c-eb61c4c3716_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4930_h=12_tart_time=2019-06-26T22:02:06Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+84e629ce-57d3-4a1f-8fde-fb82e68b2af_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4469_h=29_tart_time=2019-06-26T22:02:19Z	2618							Plasmid pRE-I
+5d1d189d-5dda-4107-8a84-6e7e83dff72_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5561_h=30_tart_time=2019-06-26T22:22:49Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+c7dd64b2-3758-4bab-a6f7-e79f93ceb15_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5629_h=4_tart_time=2019-06-26T22:23:05Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+a14fd101-afb7-4dfb-a00d-2187c8ada3f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3084_h=24_tart_time=2019-06-26T22:23:04Z	2720	
+d8b681d0-17f7-45fd-a503-b521b4bfb0e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5360_h=1_tart_time=2019-06-26T22:23:03Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+a08b805a-d13c-43f9-ae45-5aa87f36501_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4317_h=31_tart_time=2019-06-26T22:22:52Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+ba9d8d8e-47f5-4b4f-9274-3de736c1e2e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5109_h=34_tart_time=2019-06-26T22:02:16Z	2177	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanohalophilus	Methanohalophilus halophilus
+a9e9baf9-84e2-418f-b8ce-5b02c098bae_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4717_h=6_tart_time=2019-06-26T22:02:15Z	2618							Plasmid pRE-I
+21821419-8f81-44da-9a31-14b4339a45d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4736_h=32_tart_time=2019-06-26T22:22:44Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+36ab3d55-21f2-4dde-9fc8-e51ebb40533_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3084_h=24_tart_time=2019-06-26T22:23:07Z	2208	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina barkeri
+e7a2bf21-c9cd-4467-af40-59e9e16c454_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6721_h=47_tart_time=2019-06-26T22:02:03Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+905ca984-6c29-4c66-8939-6885d1d442f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6196_h=7_tart_time=2019-06-26T22:22:46Z	2208	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina barkeri
+68a761fe-aafe-4e9d-a49c-f21ed308c78_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4470_h=42_tart_time=2019-06-26T22:22:42Z	2684							Insertion sequence IS4
+d2856b3c-fb41-4405-aa09-6ed16e942a9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5029_h=44_tart_time=2019-06-26T22:02:02Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+8120b566-a2b2-47bd-a050-e89515f6c31_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5234_h=27_tart_time=2019-06-26T22:22:53Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+c202d684-d6f4-4160-9afa-55491bddea0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5190_h=35_tart_time=2019-06-26T22:22:46Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+a0df9f9e-eb0b-4db8-a5d8-738d0c923f1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5511_h=43_tart_time=2019-06-26T22:23:06Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+f302be10-b5d0-4303-9b3a-82988ef435e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5752_h=30_tart_time=2019-06-26T22:22:58Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+ba4957c1-e6d9-4f2b-a577-3df9ee34a10_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5512_h=43_tart_time=2019-06-26T22:23:14Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+ae4051f8-817c-4463-8566-ed1ca95cf46_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=2429_h=34_tart_time=2019-06-26T22:22:44Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+53e1a704-e991-4cb8-9129-ff0f16964b2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5233_h=27_tart_time=2019-06-26T22:22:47Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+adc2ffcb-3706-4b8d-96ba-c215ef04f2e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5494_h=47_tart_time=2019-06-26T22:02:01Z	2618							Plasmid pRE-I
+0ab20254-6f28-4564-bfa3-9da77997b16_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6672_h=17_tart_time=2019-06-26T22:02:14Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+d1c7d8cc-8b9f-404f-a4fb-e789729e17a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5511_h=43_tart_time=2019-06-26T22:23:03Z	2679	
+ef7e266d-97f2-4972-90ef-6dc8fcc724d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5825_h=46_tart_time=2019-06-26T22:22:45Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+ad443188-f6c9-4e98-ade6-42e813c1f4a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4245_h=44_tart_time=2019-06-26T22:22:52Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+02edddb8-0b43-4e20-8b5b-8893037789d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5821_h=3_tart_time=2019-06-26T22:23:03Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+599f3e7d-712a-4732-b17b-45b19d34880_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=2945_h=49_tart_time=2019-06-26T22:23:09Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+ed67dce1-0fc1-4f3d-a9be-52e2b5b7d64_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5030_h=34_tart_time=2019-06-26T22:22:55Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+51c4bec0-ca0a-4b1d-878e-c986dca6736_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4617_h=28_tart_time=2019-06-26T22:02:02Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+e9943936-e128-45af-9e7a-fd0eb386752_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4509_h=50_tart_time=2019-06-26T22:22:47Z	2720	
+95c4480d-6cec-4133-b95b-221e5bbafb7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4886_h=10_tart_time=2019-06-26T22:23:02Z	1973	Bacteria	Actinobacteria	Actinomycetia	Streptomycetales	Streptomycetaceae	Streptomyces	
+59fa2037-71ab-4edf-aed8-d3002108868_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5947_h=1_tart_time=2019-06-26T22:22:45Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+c94468f9-ca58-44f1-91a5-a49cf8802f5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5108_h=34_tart_time=2019-06-26T22:02:12Z	2720	
+f6c8565c-4b10-45fb-8017-3e77e059cf2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5080_h=50_tart_time=2019-06-26T22:02:03Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+f92c88b9-acb1-4ead-976a-7cad49814e5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5646_h=10_tart_time=2019-06-26T22:22:42Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+5dd04b50-4035-42ae-a520-4f1431a7e1a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4593_h=13_tart_time=2019-06-26T22:23:11Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+9afe3cad-3c48-4034-b093-a1c90547490_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4917_h=9_tart_time=2019-06-26T22:22:42Z	2679	
+7add2aec-3ca9-49a9-992b-6392aa8d033_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4343_h=4_tart_time=2019-06-26T22:02:17Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+cf40a5ff-d1e7-4bd8-a819-4422f08f59f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4112_h=24_tart_time=2019-06-26T22:02:21Z	2720	
+164c3221-7378-48ef-91ca-ee59f96a5b2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4733_h=17_tart_time=2019-06-26T22:23:11Z	2720	
+67475c46-b016-46e0-a8a4-f38cd7477a4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4672_h=3_tart_time=2019-06-26T22:22:59Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+bdf947fc-995f-4120-a2ea-021b5e88d71_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5011_h=22_tart_time=2019-06-26T22:02:15Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+91e81323-d3d4-464c-b791-91646875dae_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5046_h=11_tart_time=2019-06-26T22:23:13Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+efd708bf-b7ec-4ee8-a228-a0413980908_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5319_h=13_tart_time=2019-06-26T22:22:47Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+fb07f5bb-c050-4b5a-9521-20beca1f9c9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6803_h=29_tart_time=2019-06-26T22:22:56Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+2180843c-c058-4b4e-ba84-9fb9ea7f179_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5023_h=25_tart_time=2019-06-26T22:02:19Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+e312117d-5d5b-412c-8670-75af62807f3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4471_h=42_tart_time=2019-06-26T22:22:49Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+ca5dd3a5-90f0-4b90-8c4d-b0b56e0740c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4425_h=4_tart_time=2019-06-26T22:02:17Z	2618							Plasmid pRE-I
+0df0e451-7b2f-43d8-864a-a198157c2e5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5367_h=36_tart_time=2019-06-26T22:22:52Z	2679	
+d3ce2757-a93e-4d07-8686-6285f412a7d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4632_h=26_tart_time=2019-06-26T22:23:06Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+585a21d3-5975-48ed-a2de-2db51763d47_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4555_h=18_tart_time=2019-06-26T22:02:17Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+e17e735c-5283-4bee-984e-c9f4545727e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4349_h=34_tart_time=2019-06-26T22:02:02Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+1a12f5e6-97ff-4f30-9f18-97d04071150_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4846_h=11_tart_time=2019-06-26T22:02:19Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+e0f7474e-2bff-4887-98e6-ca6345c1ce5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5511_h=43_tart_time=2019-06-26T22:23:10Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+24cc1c38-1a27-4db5-933b-6858fd1daeb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5112_h=17_tart_time=2019-06-26T22:22:47Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+7788a478-51d4-41ba-b5bc-434d4f7a853_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4884_h=37_tart_time=2019-06-26T22:23:10Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+74229b5b-2cc1-4293-a179-df187a97627_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4587_h=26_tart_time=2019-06-26T22:22:49Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+025c51ab-c6e1-4ec4-bc9f-26360551910_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5107_h=42_tart_time=2019-06-26T22:23:05Z	2618							Plasmid pRE-I
+4e4bd0cf-ca0c-41cf-9d5f-7450a72bde9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4671_h=3_tart_time=2019-06-26T22:22:55Z	2679	
+790294a0-7c82-42ec-a016-c557f5e1ac4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5548_h=51_tart_time=2019-06-26T22:23:03Z	2469							Plasmid NTP16
+f75d0553-fcae-450e-a31f-0c55a645251_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5218_h=11_tart_time=2019-06-26T22:02:20Z	2469							Plasmid NTP16
+af9467f1-1326-42fb-9746-926e3fa1156_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5553_h=11_tart_time=2019-06-26T22:02:17Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+c7cac4b8-63df-4c9a-87c3-d2872e1d5a5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5679_h=39_tart_time=2019-06-26T22:23:03Z	2679	
+a7807905-7f16-4f88-8f19-49ec44ef301_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5150_h=5_tart_time=2019-06-26T22:23:00Z	2618							Plasmid pRE-I
+0e50024e-1167-4e6b-8a4d-eb0e17ccf15_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4906_h=22_tart_time=2019-06-26T22:02:05Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+407b9d63-6319-4148-a6fc-83e7be32bf5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4848_h=42_tart_time=2019-06-26T22:02:00Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+2f24aad3-4c2b-4e75-93e1-3f14de3a94a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5577_h=1_tart_time=2019-06-26T22:23:06Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+6649ba15-c969-404f-ad56-bfd2dfc2643_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5783_h=4_tart_time=2019-06-26T22:22:43Z	2720	
+6bfd6ed7-5a86-4913-8f48-e4583b0f674_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3906_h=32_tart_time=2019-06-26T22:23:09Z	2618							Plasmid pRE-I
+a71ce8da-0db2-412f-94ab-61f9df3eca9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5037_h=44_tart_time=2019-06-26T22:23:00Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+5207e2fa-7677-4b6b-b092-d9986082c86_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4449_h=_tart_time=2019-06-26T22:23:06Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+827712ac-a490-4cdc-a942-ae56729aefd_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4982_h=41_tart_time=2019-06-26T22:23:03Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+c09480e1-57db-43f9-bbb9-7eff92670a1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4920_h=18_tart_time=2019-06-26T22:23:13Z	2618							Plasmid pRE-I
+44ab0dbc-d895-48f5-a8ff-dcf4c83e575_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4955_h=6_tart_time=2019-06-26T22:23:00Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+d2ca21a7-db59-4480-987d-67aa9096cfb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5364_h=27_tart_time=2019-06-26T22:02:07Z	2618							Plasmid pRE-I
+7462173d-a3fa-475d-8d66-b71395a805c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5526_h=33_tart_time=2019-06-26T22:23:01Z	2720	
+ffe2e04b-b2d0-4c3a-b6de-e6b15b2af81_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4200_h=28_tart_time=2019-06-26T22:22:55Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+3843ccb8-de9b-4a22-b846-5353e02d179_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4618_h=42_tart_time=2019-06-26T22:02:01Z	456	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella	Legionella jordanis
+9971d102-db1c-4e70-bbea-1ff2c53b69a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5050_h=5_tart_time=2019-06-26T22:22:59Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+fbff2ecc-dbdc-48ae-9bcc-08f4ef7a943_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4665_h=16_tart_time=2019-06-26T22:02:05Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+b1809357-ce2d-452e-918d-19e51527a52_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5469_h=2_tart_time=2019-06-26T22:02:13Z	2618							Plasmid pRE-I
+a5583891-a19b-4c68-8066-17402a1e139_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4601_h=15_tart_time=2019-06-26T22:22:44Z	2618							Plasmid pRE-I
+744eb6d4-a1b0-49a4-a732-45eb22e3909_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5721_h=6_tart_time=2019-06-26T22:23:01Z	2618							Plasmid pRE-I
+6f3fee71-2ec6-4472-b668-f55cbfa125d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5164_h=42_tart_time=2019-06-26T22:02:09Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+2944d3fd-1d7c-4233-bf32-803704c8a7e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5118_h=21_tart_time=2019-06-26T22:02:19Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+76debd0b-db04-4911-ba25-f190059304e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5788_h=4_tart_time=2019-06-26T22:23:05Z	2720	
+82058bce-81fa-4e54-ad59-e95aea0a4bf_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5020_h=32_tart_time=2019-06-26T22:22:57Z	2720	
+52ad1c99-c4ca-4858-847d-e6285fe4eb8_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5015_h=27_tart_time=2019-06-26T22:22:46Z	2720	
+db7a1363-102b-40b9-84e6-387ccc6f355_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5250_h=10_tart_time=2019-06-26T22:02:17Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+1ef36534-208d-4075-ab50-2a7c6062006_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5646_h=1_tart_time=2019-06-26T22:22:56Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+3b077130-014a-48f0-a983-1a55616c532_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5257_h=19_tart_time=2019-06-26T22:23:06Z	2618							Plasmid pRE-I
+864c278b-17af-435f-9021-b35d8b9f70f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4954_h=6_tart_time=2019-06-26T22:22:54Z	2720	
+2b6f979d-a375-45dd-a528-4f96e445192_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4980_h=21_tart_time=2019-06-26T22:22:44Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+d6d49058-080a-4310-ab27-4cece1c16c3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5553_h=11_tart_time=2019-06-26T22:02:20Z	2618							Plasmid pRE-I
+96c32b60-f294-49a2-9bb8-e32638b7b1e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=2051_h=35_tart_time=2019-06-26T22:02:22Z	2720	
+77177bd6-3dc3-4567-9369-5dfbcc7fcf7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5820_h=23_tart_time=2019-06-26T22:22:46Z	2720	
+c5af39d0-123f-4898-b555-4a1906631ff_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5389_h=50_tart_time=2019-06-26T22:23:04Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+7d694f48-bcd1-47d4-baf4-a13f27c1b7e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5385_h=21_tart_time=2019-06-26T22:23:03Z	2720	
+7156e178-85ed-406a-958c-15196e3cf52_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5656_h=42_tart_time=2019-06-26T22:23:12Z	2720	
+eaaf1a66-b58c-4a0d-bfe8-b0d8d7c2753_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4343_h=4_tart_time=2019-06-26T22:02:14Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+561ac4b1-5d3f-470e-9844-c485bac335c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5345_h=6_tart_time=2019-06-26T22:22:57Z	2720	
+50297382-722a-48b2-b5c4-a8b80d90ba9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4668_h=39_tart_time=2019-06-26T22:02:07Z	2618							Plasmid pRE-I
+548c1c8c-f17a-47f1-bf33-519a3f08a26_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4111_h=24_tart_time=2019-06-26T22:02:14Z	2618							Plasmid pRE-I
+a4656f21-13e3-485d-8334-c6ede195c91_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5571_h=38_tart_time=2019-06-26T22:23:03Z	2720	
+86762821-0473-408c-8e7a-2e00869d6c0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4878_h=17_tart_time=2019-06-26T22:23:01Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+34683717-1a02-4c3b-8021-9a5a5cdba89_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5017_h=31_tart_time=2019-06-26T22:02:11Z	2720	
+56fedfbc-e08c-47f7-9a2b-11a778e98a3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9248_h=_tart_time=2019-06-27T03:42:50Z	2720	
+afe23966-fc20-4168-8f6f-4a20de2751d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7641_h=43_tart_time=2019-06-27T03:43:12Z	2618							Plasmid pRE-I
+a0adec78-acc3-456c-ba34-4ee62e7cbcb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1698_h=51_tart_time=2019-06-26T16:42:01Z	2720	
+d16baee5-a0ca-4b2d-9b6c-8fe2f704a89_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1438_h=11_tart_time=2019-06-26T16:42:06Z	2618							Plasmid pRE-I
+a31bdfca-4bba-40d1-95d0-ca341fe1b8c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1723_h=30_tart_time=2019-06-26T16:42:00Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+993d8033-667b-4641-be5a-4bfc6b942f3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1713_h=35_tart_time=2019-06-26T16:41:41Z	2679	
+eb219447-2514-432e-a09e-9c4660fdac0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1718_h=39_tart_time=2019-06-26T16:41:40Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+399ed2d3-2f8e-43a7-9128-9d8dafac08a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9180_h=30_tart_time=2019-06-27T03:43:16Z	2469							Plasmid NTP16
+dec288c6-3119-43a7-a7ea-cd50d6c7697_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10444_h=24_tart_time=2019-06-27T03:42:39Z	2679	
+391c3686-aeca-44ca-ac8f-87d66c807fb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1862_h=43_tart_time=2019-06-26T16:41:53Z	2720	
+f63d2a1c-303d-4e73-b8fb-b224b224650_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1933_h=41_tart_time=2019-06-26T16:41:59Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+eeaed6a6-5b57-466c-87f3-ed285681c9d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10093_h=51_tart_time=2019-06-27T03:43:03Z	2679	
+35db329f-3355-49e0-a877-5fb539c16d7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1449_h=21_tart_time=2019-06-26T16:42:08Z	2618							Plasmid pRE-I
+a6426c8e-e1cc-4d96-8f47-2ad53b9de56_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1866_h=21_tart_time=2019-06-26T16:41:54Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+308a5e1d-8e3d-4cb6-95a1-4e4a1b769ac_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1815_h=19_tart_time=2019-06-26T16:41:43Z	2469							Plasmid NTP16
+acabe51d-f490-44a6-830b-7927ee86f4a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9147_h=35_tart_time=2019-06-27T03:43:14Z	2720	
+1b12f72a-e5c4-4df7-a3cd-940986be326_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1499_h=17_tart_time=2019-06-26T16:41:47Z	2782	Eukaryota	Rhodophyta	Florideophyceae	Gracilariales	Gracilariaceae	Gracilariopsis	Gracilariopsis lemaneiformis
+6d365d20-a68c-4b97-9e50-7b93b124eb4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1835_h=44_tart_time=2019-06-26T16:42:07Z	2679	
+ad50789e-cf58-46bd-b4d3-3b55db68846_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9813_h=27_tart_time=2019-06-27T03:42:41Z	2626							Plasmid pSE211
+f0e35d21-e41f-4a39-a465-3f7b4fd50e4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1664_h=41_tart_time=2019-06-26T16:41:49Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+3016abe3-1c66-4ce9-9903-add72099038_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1692_h=3_tart_time=2019-06-26T16:41:54Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+044585e8-d0ae-4a38-ab9f-bc50e9b985a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1144_h=26_tart_time=2019-06-26T16:41:53Z	2618							Plasmid pRE-I
+192e9e42-e5a4-45c1-b307-61e021d7b8c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8975_h=42_tart_time=2019-06-27T03:43:15Z	2208	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina barkeri
+7d1b8a7b-eff7-49ba-b973-2e90966d27b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1397_h=43_tart_time=2019-06-26T16:42:02Z	2618							Plasmid pRE-I
+e28217a9-0da6-4f53-b385-b5e356e190c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10017_h=39_tart_time=2019-06-27T03:43:13Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+7d574175-947f-4755-a578-cc5d5bcf441_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1885_h=3_tart_time=2019-06-26T16:41:51Z	2618							Plasmid pRE-I
+b747dc80-e26c-4a9c-92df-9070a336fa1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1415_h=20_tart_time=2019-06-26T16:42:06Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+f7ccf75d-45ac-4150-9629-43d629fa085_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1590_h=36_tart_time=2019-06-26T16:42:05Z	2618							Plasmid pRE-I
+34282798-4e1d-442b-bfc5-4afe523c736_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9974_h=13_tart_time=2019-06-27T03:42:52Z	2186	Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanococcaceae	Methanothermococcus	Methanothermococcus thermolithotrophicus
+8ad8bdd8-2fec-4fd3-99da-1a369c56701_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1791_h=1_tart_time=2019-06-26T16:41:46Z	2618							Plasmid pRE-I
+62ed1f24-0def-4f98-980f-b8331589582_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10191_h=23_tart_time=2019-06-27T03:42:59Z	2618							Plasmid pRE-I
+1797d071-118b-4f4d-8618-f76e6981611_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7526_h=48_tart_time=2019-06-27T03:42:51Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+5ea232c4-bd07-4b57-8a56-5bdd70c785f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7639_h=43_tart_time=2019-06-27T03:43:00Z	2618							Plasmid pRE-I
+bfd56e8e-594e-4984-b2b3-f885f5bc86d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1709_h=5_tart_time=2019-06-26T16:42:04Z	2679	
+c0331a02-2671-4e6a-9c72-8d49d150ae9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10345_h=4_tart_time=2019-06-27T03:42:55Z	2720	
+dcdf1140-68f3-4f1b-bd89-877c8ab223c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1641_h=22_tart_time=2019-06-26T16:41:40Z	2720	
+5d438da4-9230-472f-ac45-46dbc382265_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1726_h=15_tart_time=2019-06-26T16:42:00Z	2720	
+63518e7b-18cb-449c-8f89-1646ada4b87_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1808_h=1_tart_time=2019-06-26T16:42:09Z	2720	
+aceebdbd-4d12-429e-8fb2-b9d01ce0250_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1361_h=16_tart_time=2019-06-26T16:41:43Z	2618							Plasmid pRE-I
+3771b023-624a-4786-817b-fc0290ddccb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1316_h=41_tart_time=2019-06-26T16:41:58Z	2720	
+3df1ab41-c427-4ea6-a09f-11ae42baa89_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9450_h=48_tart_time=2019-06-27T03:43:12Z	2679	
+0494287b-a6cc-434c-b1cd-4bde2aef52b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1831_h=44_tart_time=2019-06-26T16:41:54Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+c46126ca-e048-4842-a961-9d3c1ae160b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1476_h=27_tart_time=2019-06-26T16:41:50Z	2618							Plasmid pRE-I
+19587510-0784-4c42-aaf7-b1367b330b9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9209_h=25_tart_time=2019-06-27T03:42:42Z	2618							Plasmid pRE-I
+e1ddaf11-22e2-4512-b33b-756bc59adac_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1916_h=2_tart_time=2019-06-26T16:41:43Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+fff33ea4-acf2-4cf7-9fac-4a9e67baf75_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5483_h=43_tart_time=2019-06-27T03:43:12Z	2679	
+c8f4b07b-e6bc-4451-ab1f-f80048e166b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1363_h=17_tart_time=2019-06-26T16:41:44Z	2177	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanohalophilus	Methanohalophilus halophilus
+cf0e97c7-680a-4d5a-b97d-64ed6da6f3a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9454_h=42_tart_time=2019-06-27T03:42:54Z	2720	
+4bd7d0a0-951f-4aa5-a173-a5994c9653a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1764_h=8_tart_time=2019-06-26T16:41:43Z	2720	
+c583f1f1-93c4-47c8-b63f-7a604e19d13_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8083_h=32_tart_time=2019-06-27T03:43:19Z	2618							Plasmid pRE-I
+2009cc31-89b7-4d60-85cf-801906a5dbe_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9796_h=11_tart_time=2019-06-27T03:43:02Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+e73029ac-ee0f-4d3c-a8fb-92e7df455a7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9253_h=_tart_time=2019-06-27T03:43:02Z	2720	
+071d3d53-71a4-4464-ba52-c7873ef27d5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1722_h=30_tart_time=2019-06-26T16:41:45Z	2618							Plasmid pRE-I
+0b67c835-185b-4618-ae5b-76b7c21fae3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1386_h=35_tart_time=2019-06-26T16:41:43Z	2720	
+eb4b08dd-cbee-4d13-9058-020bc534851_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8119_h=39_tart_time=2019-06-27T03:43:16Z	2720	
+10036771-08ab-44f7-9e86-2b37fad9f9a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10223_h=14_tart_time=2019-06-27T03:43:11Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+dcc179f6-586e-4ace-80c4-cf439012dff_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7427_h=35_tart_time=2019-06-27T03:42:54Z	2618							Plasmid pRE-I
+8ebd9f44-d34b-41bc-982f-d38405e4836_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1354_h=17_tart_time=2019-06-26T16:41:40Z	2720	
+969a9931-3374-455d-9e70-1e4ec2b4593_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1666_h=42_tart_time=2019-06-26T16:42:02Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+a788b123-fdd8-493b-8ea6-f686fee3cc2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17191_h=33_tart_time=2019-06-27T03:43:15Z	2679	
+053240bf-88f4-4989-96ad-bc9623a7860_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1328_h=9_tart_time=2019-06-26T16:41:46Z	2720	
+84f662ec-1b93-4ece-9e19-a25557dd24a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10310_h=46_tart_time=2019-06-27T03:42:47Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+4e6c4b6f-eadf-4472-9999-c74c87fcc3d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1652_h=4_tart_time=2019-06-26T16:41:55Z	2679	
+cb447f63-71b4-4d34-afdf-0a657dba86f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16086_h=17_tart_time=2019-06-27T13:47:39Z	2679	
+f8e3fd8a-db09-47dc-b4bf-c72c7b8b4fc_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16585_h=16_tart_time=2019-06-27T13:45:49Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+d9da025a-12e6-4cb0-a81d-e66407b564f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20044_h=4_tart_time=2019-06-27T13:47:14Z	456	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella	Legionella jordanis
+9640e45f-5250-475d-b838-13b1f138f52_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19145_h=9_tart_time=2019-06-27T13:47:11Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+ba4efea0-e022-4798-b351-90a32b728df_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13028_h=30_tart_time=2019-06-27T13:46:52Z	2618							Plasmid pRE-I
+b3e578a7-65e3-42d5-ae34-a4e720d96db_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13789_h=11_tart_time=2019-06-27T13:45:47Z	2720	
+0f1805bd-0644-436e-8979-d7058ace2d6_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6569_h=21_tart_time=2019-06-26T21:19:50Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+85da5def-74a3-4f59-82b9-c4e6d19ae4e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1920_h=22_tart_time=2019-06-26T16:41:59Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+a96f3467-6c93-4d47-a10c-8acedcfdbb0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1665_h=41_tart_time=2019-06-26T16:42:08Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+5a979567-eaf7-40f1-95c2-b6250df5238_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1686_h=27_tart_time=2019-06-26T16:41:52Z	2684							Insertion sequence IS4
+c9deff4d-405c-4963-aee4-6be9c4bbdc8_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1659_h=51_tart_time=2019-06-26T16:41:56Z	2720	
+22b2fec6-24d8-40c9-9dd0-fb558150bb3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1587_h=40_tart_time=2019-06-26T16:41:54Z	2618							Plasmid pRE-I
+e5db7979-9e55-4c7a-b56a-772677a33b2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4308_h=34_tart_time=2019-06-26T21:19:29Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+6696daf1-4d41-408a-bf30-9a8dc4f55d1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=22158_h=31_tart_time=2019-06-27T13:47:26Z	2720	
+802bb6ed-56f4-44e9-a0a2-ea2dd414c95_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4688_h=6_tart_time=2019-06-26T21:19:36Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+da29eca6-0e4e-4770-a8b8-69287dac8f7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=22329_h=30_tart_time=2019-06-27T13:47:34Z	2618							Plasmid pRE-I
+7a2b3efa-fd86-4ad2-a5c3-9980ad83c46_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4141_h=4_tart_time=2019-06-26T21:19:51Z	2782	Eukaryota	Rhodophyta	Florideophyceae	Gracilariales	Gracilariaceae	Gracilariopsis	Gracilariopsis lemaneiformis
+0b92b326-bb46-49a8-8fbb-7b4b1d77b31_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14788_h=8_tart_time=2019-06-27T13:46:37Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+a4e40247-8b84-46d1-9962-95e98c83dbe_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14662_h=40_tart_time=2019-06-27T13:46:26Z	2469							Plasmid NTP16
+dee59784-8a9a-4932-a297-ffffd8344ed_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4742_h=17_tart_time=2019-06-26T21:19:50Z	2720	
+34f918e5-9107-4806-b942-5ae28418e4f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4227_h=25_tart_time=2019-06-26T21:19:46Z	2618							Plasmid pRE-I
+f1546ebf-e643-4a76-be7f-c34745229a5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5348_h=7_tart_time=2019-06-26T21:19:37Z	2210	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina thermophila
+47402e33-2016-4e57-82b8-5141bd7d361_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18098_h=35_tart_time=2019-06-27T13:46:04Z	2679	
+c0b5a739-5fd1-42b8-9650-2767d26e6b2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14787_h=8_tart_time=2019-06-27T13:46:33Z	2720	
+0068665e-590a-40ce-84ce-7f27f0e7efa_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3039_h=5_tart_time=2019-06-26T21:19:31Z	456	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella	Legionella jordanis
+6b959540-ef71-4ee9-9cab-551ec1b226c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5016_h=9_tart_time=2019-06-26T21:19:27Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+9a399fc5-0f30-4ea5-96b5-53a69f17a00_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15395_h=37_tart_time=2019-06-27T13:47:39Z	2720	
+23eb499c-a7d6-4e39-b535-28114ac60d2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16671_h=35_tart_time=2019-06-27T13:46:02Z	2679	
+c77be1f4-29db-4f12-a5ef-7324ba741bb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19177_h=46_tart_time=2019-06-27T13:46:08Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+b784c2ba-1f3d-453c-b675-3225db16e21_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16820_h=6_tart_time=2019-06-27T13:46:13Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+a1b8bbe0-d179-43f3-af5c-3c8ae56ac52_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17611_h=26_tart_time=2019-06-27T13:45:57Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+ef81e192-1c5e-4efd-830e-6b7e1afb23b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17160_h=36_tart_time=2019-06-27T13:45:43Z	2618							Plasmid pRE-I
+43c49978-38dc-41ce-b353-757a26b695a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5159_h=43_tart_time=2019-06-26T21:19:43Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+c846be59-560b-40b8-bf97-46fcb59c3ee_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4208_h=37_tart_time=2019-06-26T21:19:36Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+7e43d503-6132-4aa1-be8a-700c6da2db1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20370_h=34_tart_time=2019-06-27T13:47:32Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+3610220d-6a17-4cae-972d-8267bd30052_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15738_h=18_tart_time=2019-06-27T13:46:46Z	2190	Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus	Methanocaldococcus jannaschii
+4b2a10ab-9bf6-4c57-a560-3357fe004c9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19669_h=27_tart_time=2019-06-27T13:47:03Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+2b75c8ef-49eb-4bff-a04c-f70feeda95c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4873_h=1_tart_time=2019-06-26T21:19:54Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+fc640965-9e7d-4df4-8a01-b3c62fff886_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20967_h=34_tart_time=2019-06-27T13:46:37Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+03382602-488b-4abf-8e9a-49750ef79b9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4836_h=_tart_time=2019-06-26T21:19:55Z	2720	
+71196d77-ff3d-4d8a-a440-f3a113a22df_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3589_h=24_tart_time=2019-06-26T21:19:31Z	2679	
+e07a72c4-ac09-4f53-8b58-cae75bad858_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4573_h=10_tart_time=2019-06-26T21:19:33Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+e476237c-b8ea-4ff6-9349-c93f6720735_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5275_h=46_tart_time=2019-06-26T21:19:38Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+c860baf9-e3ba-456b-8ecf-a4839c46dd1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17141_h=24_tart_time=2019-06-27T13:46:12Z	2618							Plasmid pRE-I
+eee238b3-af23-435e-8f52-57b79a64de7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3654_h=26_tart_time=2019-06-26T21:19:51Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+a313b881-fb29-4a56-b167-b3383239157_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19173_h=46_tart_time=2019-06-27T13:45:47Z	2618							Plasmid pRE-I
+2bada2f2-c6ef-4ea3-8d0f-bb911b3e81d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6570_h=21_tart_time=2019-06-26T21:19:53Z	2720	
+09eaea04-b6ca-4a74-b06e-5706fea224c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14882_h=42_tart_time=2019-06-27T13:45:53Z	2618							Plasmid pRE-I
+3320b8b7-eb36-4cce-bb94-6c0a088e282_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14250_h=43_tart_time=2019-06-27T13:46:04Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+fcb815c8-95bb-445c-b057-413add34380_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4564_h=14_tart_time=2019-06-26T21:19:49Z	2172	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	
+a757485d-be19-4d84-88a3-6e9a9e7ae89_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19208_h=46_tart_time=2019-06-27T13:47:38Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+6f3c00a2-32c6-4770-8225-5cee7a8e04d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=21132_h=2_tart_time=2019-06-27T13:47:02Z	2618							Plasmid pRE-I
+511d9992-1de7-4e15-ab99-dd78db38da5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5319_h=22_tart_time=2019-06-26T21:19:45Z	2720	
+23a93577-6343-4fc5-b0be-1df78314562_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5094_h=27_tart_time=2019-06-26T21:19:36Z	2177	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanohalophilus	Methanohalophilus halophilus
+e42af129-9603-4032-8cd3-84ed3f6a8bd_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4964_h=24_tart_time=2019-06-26T21:19:47Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+8546a9b2-d0ac-4fe6-a75c-c7b8643fc46_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=22303_h=30_tart_time=2019-06-27T13:46:17Z	2720	
+e7cedeb6-2300-4fab-9d4e-147fd54b129_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7609_h=40_tart_time=2019-06-27T13:47:06Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+166a5f53-46d3-4aae-87c1-5e421551150_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4428_h=5_tart_time=2019-06-26T21:19:54Z	2720	
+3618d270-c4d8-44a6-a979-8bb9f28b017_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4934_h=35_tart_time=2019-06-26T21:19:49Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+e0e6e4ab-cfa8-418b-adcb-cca8250c922_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19257_h=20_tart_time=2019-06-27T13:46:42Z	2618							Plasmid pRE-I
+196f9bca-26bc-46e1-814a-44fc2b72188_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3487_h=28_tart_time=2019-06-26T21:19:34Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+e1c522c3-722b-443d-9a77-617ed0d0cac_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16586_h=16_tart_time=2019-06-27T13:45:55Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+56cd37a3-c55a-494f-a14a-d6027b61632_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5226_h=15_tart_time=2019-06-27T13:47:38Z	2720	
+3d174e95-8e8a-4cab-8265-85804f3c954_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4309_h=17_tart_time=2019-06-26T21:19:29Z	456	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella	Legionella jordanis
+4f0e5a1e-794b-4434-8244-dd21ca77808_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4971_h=4_tart_time=2019-06-26T21:19:57Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+fed9b7fb-f790-4156-be44-4b26748184b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10794_h=31_tart_time=2019-06-27T13:47:18Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+57257d00-f62c-4925-954f-4467fa0614e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4016_h=41_tart_time=2019-06-26T21:19:49Z	2618							Plasmid pRE-I
+ea209855-bdc6-4b6a-8cdf-9b12238f840_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19477_h=30_tart_time=2019-06-27T13:46:16Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+f35ad618-b4a4-4998-ab55-c4033317560_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13806_h=11_tart_time=2019-06-27T13:47:23Z	2618							Plasmid pRE-I
+2ec7a2bc-7737-4704-a4a0-38d5718dd0b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18695_h=4_tart_time=2019-06-27T13:46:08Z	2720	
+f689ba5f-f6ee-4eed-a77f-8969ae8337b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18819_h=17_tart_time=2019-06-27T13:46:01Z	2178	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae		
+b88282b9-deea-4d7c-bc96-e5871be27e7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20170_h=8_tart_time=2019-06-27T13:47:30Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+63a54095-c950-4ef4-b39a-7694f1f0284_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=2803_h=18_tart_time=2019-06-26T21:19:31Z	2626							Plasmid pSE211
+ab384769-bbb7-4569-8d1e-eb060e14622_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4436_h=19_tart_time=2019-06-26T21:19:38Z	2618							Plasmid pRE-I
+02e90512-5618-4390-a992-24cdad4e221_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3865_h=15_tart_time=2019-06-26T21:19:31Z	2618							Plasmid pRE-I
+9613479b-7f9b-475f-8386-1cc1e30385a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14267_h=43_tart_time=2019-06-27T13:47:14Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+5a7f9947-9422-41e5-91f1-06a5f2af477_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4688_h=6_tart_time=2019-06-26T21:19:42Z	2679	
+9900e931-c022-429a-ad32-ce133e26999_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=10784_h=31_tart_time=2019-06-27T13:46:31Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+db73cf7b-a8c8-473a-a51c-b387dc1badd_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4648_h=48_tart_time=2019-06-26T21:19:40Z	2469							Plasmid NTP16
+36344241-da82-4b26-aab0-65701c98488_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3933_h=4_tart_time=2019-06-26T21:19:56Z	2720	
+bd0b5afe-afa7-42bc-911c-58fea1f8521_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20581_h=14_tart_time=2019-06-27T13:46:06Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+eda1584e-6821-41bf-8086-41a236b4ee0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4155_h=39_tart_time=2019-06-26T21:19:32Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+6d2b240a-ef47-42d9-a1cc-e08be465b8f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=21047_h=15_tart_time=2019-06-27T13:47:35Z	2720	
+2740c541-1e36-4854-9c7e-fe12a784ba4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18830_h=17_tart_time=2019-06-27T13:46:40Z	2720	
+46e759a4-df7c-4241-bf75-d0b2a4a7d6c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3870_h=32_tart_time=2019-06-26T21:19:39Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+5c2ea6e7-e2cb-4a4c-9f3c-bc11023f6f9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18833_h=17_tart_time=2019-06-27T13:46:56Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+d80dfe77-577a-411b-944c-5dec808b6b8_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4571_h=28_tart_time=2019-06-26T21:19:40Z	2626							Plasmid pSE211
+1e4ef0e8-68e4-449b-a24c-43d6c7e0e1f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4610_h=1_tart_time=2019-06-26T21:19:37Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+02e26f2b-ccf5-43a8-a3bd-4d90e4bd6fb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14267_h=43_tart_time=2019-06-27T13:47:05Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+70b2d34e-9c83-411f-bf03-655c523dedc_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13658_h=50_tart_time=2019-06-27T13:47:30Z	2720	
+4f73306d-3d3b-46da-8138-868df8e1886_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3594_h=24_tart_time=2019-06-26T21:19:57Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+f909c619-1ac1-4c72-ac55-ec223cda677_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=23027_h=38_tart_time=2019-06-27T13:47:18Z	457	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Tatlockia	Legionella maceachernii
+c4e92f9e-c085-49ef-b04b-fa55b9b7463_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4434_h=18_tart_time=2019-06-26T21:19:46Z	2618							Plasmid pRE-I
+7908d6df-3575-4c56-9f5d-20a1d9a5594_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=21038_h=15_tart_time=2019-06-27T13:47:09Z	2618							Plasmid pRE-I
+02317446-65b1-4255-822b-6576037ff44_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4147_h=43_tart_time=2019-06-26T21:19:47Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+ce1665c1-7d80-4fdf-940d-23c4cd39e0a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4953_h=13_tart_time=2019-06-26T21:19:38Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+a7dfd5b8-9c6e-458c-bd7a-f23d4bd32d9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15206_h=13_tart_time=2019-06-27T13:46:15Z	2679	
+75430ccc-fe19-44dd-b6a3-db04a33f244_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5272_h=40_tart_time=2019-06-26T21:19:34Z	2679	
+3157b609-2a8c-4954-a8a2-fb8a330e853_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13019_h=30_tart_time=2019-06-27T13:46:32Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+803d8f02-9051-4000-a8fb-0f1f5b497d3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4307_h=44_tart_time=2019-06-26T21:19:39Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+d3151126-7f73-465d-8240-8753b1fb21a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4528_h=4_tart_time=2019-06-26T21:19:46Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+7f3274e5-1a65-4833-96c1-c8512ad09fc_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13010_h=30_tart_time=2019-06-27T13:46:11Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+9dafdbbe-239a-4ddf-a113-f3cf6de600a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18276_h=12_tart_time=2019-06-27T13:46:19Z	2679	
+9865357c-804b-4a6b-a661-d4e873e40df_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17610_h=46_tart_time=2019-06-27T13:46:02Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+0f976be8-4261-4a4a-a6c0-69b9e085d9a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20957_h=34_tart_time=2019-06-27T13:46:02Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+a4c74f85-13d7-46e9-a510-4f41195753a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16433_h=44_tart_time=2019-06-27T13:47:33Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+66c926f6-2679-41f3-af2d-aa6504dee0e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13028_h=30_tart_time=2019-06-27T13:47:03Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+13731c23-f73a-4931-97bf-38d3d4dbaa2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4674_h=3_tart_time=2019-06-26T21:19:33Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+aeb1b532-3ef9-4fb9-8176-f647d1ef536_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4284_h=18_tart_time=2019-06-26T21:19:58Z	2720	
+755e39d1-8212-4ee5-9727-3bf9d075aaf_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8389_h=35_tart_time=2019-06-27T13:47:02Z	2618							Plasmid pRE-I
+bf0a7049-c730-43ae-a322-5c09d163133_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4029_h=37_tart_time=2019-06-26T21:19:56Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+dc02df47-e08c-4c04-9290-ba2d0daa7ff_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19272_h=20_tart_time=2019-06-27T13:47:40Z	2203	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanospirillaceae	Methanospirillum	Methanospirillum hungatei
+f5862d3c-62a7-4708-85b2-b628702075c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4087_h=37_tart_time=2019-06-26T21:19:28Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+8d0e44ef-78df-4047-baf4-811f7038c72_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16671_h=24_tart_time=2019-06-27T13:46:46Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+129d255e-a1c4-49b4-aaae-8c11272109f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4362_h=29_tart_time=2019-06-26T21:19:47Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+896d3573-96fd-4e5d-b8de-3ebd2bac7f5_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20024_h=4_tart_time=2019-06-27T13:46:30Z	2208	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina barkeri
+ad45e0af-b3b3-44dc-b628-661c647a948_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20164_h=8_tart_time=2019-06-27T13:47:02Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+d1c88724-90e7-4420-86b9-76e2818f40a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=3893_h=26_tart_time=2019-06-26T21:19:34Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+ea4730bd-10f9-4598-98cc-2887406cf68_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=1462_h=35_tart_time=2019-06-26T21:19:44Z	2618							Plasmid pRE-I
+6cc4d8ff-e844-4e37-99d3-f61b6b864f4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4825_h=1_tart_time=2019-06-26T21:19:37Z	2720	
+a3e3f8f3-6ffa-461f-8f73-ca4484de87d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4662_h=10_tart_time=2019-06-26T21:19:46Z	2184	Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanococcaceae	Methanococcus	
+cd1c82c2-0387-44aa-89d1-c3e68bd1e94_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20901_h=36_tart_time=2019-06-27T13:47:19Z	201	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter lari
+0fac34fd-b5ff-4ad3-9b25-aa6074aacd7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4822_h=41_tart_time=2019-06-26T21:19:43Z	2720	
+bdc91f60-7f66-4ff8-8eb5-1e52079aed1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15395_h=37_tart_time=2019-06-27T13:47:44Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+2a202265-27b4-4184-bf66-7a497664580_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4819_h=41_tart_time=2019-06-26T21:19:27Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+3aa28ed9-4c2e-405b-8a32-6ddd3725fad_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19650_h=25_tart_time=2019-06-27T13:46:58Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+c6abac10-eb2e-4b5c-80b2-caada6893f2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=22730_h=40_tart_time=2019-06-27T13:47:27Z	2720	
+f5815649-68a6-41f4-976e-7c99649e6ec_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4061_h=36_tart_time=2019-06-26T21:19:44Z	2473							Plasmid P6
+afb42189-de36-4cf1-9358-5c83ca20f08_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14917_h=42_tart_time=2019-06-27T13:47:26Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+a38dd089-c6d8-4a00-8119-c6182073ba1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4272_h=37_tart_time=2019-06-26T21:19:56Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+e8a72227-4026-4404-90fc-2dc96c512cd_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17174_h=25_tart_time=2019-06-27T13:46:13Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+a98bd85d-b1dd-430e-b58b-2d4aae9c423_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18047_h=_tart_time=2019-06-27T13:46:19Z	2618							Plasmid pRE-I
+54ca5375-446a-4add-89a6-802f9009cb0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4271_h=6_tart_time=2019-06-26T21:19:53Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+70defeb1-7dbe-4744-bcd1-7d3f4f29ae3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18830_h=17_tart_time=2019-06-27T13:46:45Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+5d311b0c-efe0-4c84-aa86-1c04bbaa2f2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15390_h=37_tart_time=2019-06-27T13:47:21Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+6ca16289-42d9-4950-a046-d2ddf22105c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17621_h=32_tart_time=2019-06-27T13:47:36Z	2720	
+fc0b288c-7bdc-4f4e-9386-a42ef84d8e3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19422_h=9_tart_time=2019-06-27T13:46:14Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+4ab7cb49-5404-4aff-a4e0-199ed868dd4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4026_h=34_tart_time=2019-06-26T21:19:37Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+eef8f235-e34b-4b83-8089-64f7270cb95_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16512_h=14_tart_time=2019-06-27T13:46:25Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+9917118c-2434-4177-887e-29a23545286_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16818_h=6_tart_time=2019-06-27T13:45:54Z	2618							Plasmid pRE-I
+fd784b67-f5f1-4a34-8dd1-61718ddb7e7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=6123_h=29_tart_time=2019-06-26T21:19:48Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+3e6df880-71d2-445f-b717-f45f9248869_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16533_h=14_tart_time=2019-06-27T13:47:46Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+bfc63b93-7c85-4e42-a730-27138c91079_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20156_h=39_tart_time=2019-06-27T13:46:27Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+2ee89cdb-2a9b-4749-ad1e-420137fd20a_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20310_h=42_tart_time=2019-06-27T13:47:11Z	2618							Plasmid pRE-I
+016a149f-f777-44c2-8678-1a88f3f6cc6_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5296_h=45_tart_time=2019-06-26T21:19:38Z	2618							Plasmid pRE-I
+5a749571-13c4-4e95-9dad-7e8d41a06ca_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4745_h=19_tart_time=2019-06-26T21:19:42Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+e943c6f6-5dad-410f-9610-8cef3afa46b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5332_h=7_tart_time=2019-06-26T21:19:46Z	2618							Plasmid pRE-I
+3cf8d967-0fef-4ee3-ae91-18f68152516_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=2594_h=38_tart_time=2019-06-26T21:19:43Z	2720	
+656cc3bc-15dd-4257-a6ca-58b0ef35add_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=23022_h=38_tart_time=2019-06-27T13:47:06Z	2679	
+78d910d2-a8c8-4fae-999d-ba3381789fd_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5271_h=47_tart_time=2019-06-26T21:19:38Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+96da0ce2-54e7-4104-884f-f3147222598_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19564_h=8_tart_time=2019-06-27T13:47:30Z	2618							Plasmid pRE-I
+8ee15fe3-2f0a-4705-81a6-c9d78b9e591_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15372_h=37_tart_time=2019-06-27T13:46:14Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+92ade20b-8938-4ecf-b59c-39b124ace04_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=4942_h=47_tart_time=2019-06-26T21:19:42Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+be6720d8-3031-4655-b8bb-89fc90a5b59_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17978_h=8_tart_time=2019-06-27T13:47:30Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+1ead4088-96f4-4033-801a-334f96c9f9c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=23028_h=38_tart_time=2019-06-27T13:47:29Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+364fa2c8-c78c-4457-b223-06f5f0dd051_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5330_h=7_tart_time=2019-06-26T21:19:39Z	2618							Plasmid pRE-I
+4272d32e-4ac4-449c-96b3-1fd02170e9e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16838_h=6_tart_time=2019-06-27T13:47:30Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+767bccb9-496b-400c-a531-2004211caa1_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19559_h=8_tart_time=2019-06-27T13:47:14Z	2679	
+edd8cbc9-6b6b-406b-becc-98627a4cf51_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18607_h=15_tart_time=2019-06-27T13:47:14Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+30618912-64d6-466a-906a-2cb160f6133_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14795_h=8_tart_time=2019-06-27T13:47:17Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+c6d8c241-da85-4abf-9294-5eafbf49b6b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=25494_h=8_tart_time=2019-06-27T13:29:37Z	2720	
+da349662-a1bb-477c-a4ce-390c281fe7d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19904_h=7_tart_time=2019-06-27T13:30:09Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+ae98739f-3789-4d52-b244-3c76f24a288_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8795_h=7_tart_time=2019-06-27T02:06:48Z	2720	
+c6363a4a-43f5-4343-abb0-24c28650637_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19009_h=38_tart_time=2019-06-27T13:30:54Z	2618							Plasmid pRE-I
+6f999868-ac15-4ff9-856b-23ca65bbcaf_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8628_h=14_tart_time=2019-06-27T02:06:59Z	2207	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	
+518f7a15-bd28-45e7-9037-ec58e1da411_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8306_h=20_tart_time=2019-06-27T02:06:38Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+0655fd3a-b958-4303-9364-7c8073aab0c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8182_h=10_tart_time=2019-06-27T02:06:45Z	2618							Plasmid pRE-I
+54a2008b-e313-406d-bd26-50848bed296_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16948_h=3_tart_time=2019-06-27T13:30:06Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+d1beba96-1001-468f-bc33-7cb67b206b9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8763_h=1_tart_time=2019-06-27T02:07:01Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+a4e2bedc-96f3-494f-9556-52145bc399f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9548_h=40_tart_time=2019-06-27T02:06:41Z	2720	
+34036eeb-b73d-42c1-a526-a63c01201ae_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15647_h=33_tart_time=2019-06-27T13:30:59Z	2469							Plasmid NTP16
+d11dee31-b6a2-46d9-b694-c9a554447d2_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8580_h=10_tart_time=2019-06-27T02:06:59Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+337b3081-e743-426b-af39-d7c05f5aaf6_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8279_h=11_tart_time=2019-06-27T02:06:59Z	2618							Plasmid pRE-I
+efcc223c-ba42-422d-9142-e6d8efded20_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20576_h=36_tart_time=2019-06-27T13:29:54Z	2618							Plasmid pRE-I
+a45af8ea-427e-4905-89d7-ef9ad4206a4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=20646_h=34_tart_time=2019-06-27T13:31:08Z	2720	
+8bf1922d-ea72-4462-8e2e-7c7bbf1c241_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13330_h=50_tart_time=2019-06-27T13:30:29Z	2720	
+3242a9e1-43d0-4752-9cce-106c2326d47_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17482_h=9_tart_time=2019-06-27T13:29:45Z	2618							Plasmid pRE-I
+2e09bb9b-d8e7-4c9d-aa40-6214e639143_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18327_h=15_tart_time=2019-06-27T13:30:12Z	456	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella	Legionella jordanis
+3330acd5-549b-4d3d-97af-15eacadd969_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7458_h=47_tart_time=2019-06-27T02:06:58Z	2679	
+39f4d931-1813-47b7-8662-fb10d8e06d9_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17594_h=38_tart_time=2019-06-27T13:30:09Z	2720	
+546850a5-41c0-4e54-b8dc-8eab9492365_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17608_h=38_tart_time=2019-06-27T13:31:00Z	2177	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanohalophilus	Methanohalophilus halophilus
+3cc48034-3d30-4014-8327-22155f005ae_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8311_h=38_tart_time=2019-06-27T02:07:02Z	2720	
+1880786b-4a17-48ad-b730-082018f6f4b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13595_h=11_tart_time=2019-06-27T13:29:38Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+a97688d6-2bcf-4b3b-beb5-590c71c1e04_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=31402_h=33_tart_time=2019-06-27T13:29:45Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+4e3437c7-8f23-4f63-b049-5bb4078ed72_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7571_h=28_tart_time=2019-06-27T02:06:48Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+dec64ea6-0b33-48db-abbd-e3b8d997790_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17490_h=9_tart_time=2019-06-27T13:30:16Z	2720	
+3af48e04-9eb7-4270-a5e2-15913640554_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=22412_h=40_tart_time=2019-06-27T13:30:20Z	2618							Plasmid pRE-I
+614ac282-d1d3-4453-9277-11c0eb1adcd_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14334_h=32_tart_time=2019-06-27T13:29:48Z	2618							Plasmid pRE-I
+9f5b9fb2-204e-427f-84df-346044ec4a7_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8605_h=2_tart_time=2019-06-27T02:07:12Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+4341d60d-b9db-4cea-9535-a951ddd0585_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=13319_h=50_tart_time=2019-06-27T13:29:46Z	2618							Plasmid pRE-I
+a7786076-1bb9-4a41-bf5d-482a2c5ea77_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8490_h=47_tart_time=2019-06-27T02:06:48Z	2720	
+5e77e30c-914c-4906-8c74-f26c736c77c_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8574_h=4_tart_time=2019-06-27T02:07:12Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+5f74eea5-80a0-4071-a9d1-22879e9043f_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9129_h=39_tart_time=2019-06-27T13:29:53Z	2766	Eukaryota	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Antithamnion	
+322e295a-f4a5-4264-b1e5-984ef20e8f0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7172_h=15_tart_time=2019-06-27T02:07:14Z	2720	
+e381d9a0-7df7-4b4c-9946-cfbb90d8db0_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8448_h=28_tart_time=2019-06-27T02:07:08Z	2184	Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanococcaceae	Methanococcus	
+22896cb4-6368-4908-8454-3768c38e49d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16795_h=37_tart_time=2019-06-27T13:31:01Z	2618							Plasmid pRE-I
+68c55dbd-8191-44e1-936a-9f66bc7687e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17380_h=46_tart_time=2019-06-27T13:30:14Z	2772	Eukaryota	Rhodophyta	Florideophyceae	Rhodymeniales	Champiaceae	Gastroclonium	
+35db2a45-2efc-4cc8-97f3-aee0dfad499_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7338_h=43_tart_time=2019-06-27T02:06:42Z	2679	
+fc8d7f6e-42e9-4a3f-ac60-ae098139b75_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=7727_h=9_tart_time=2019-06-27T02:06:55Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+00ca51c2-5560-47aa-8324-c2a0e0ab04b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8435_h=27_tart_time=2019-06-27T02:07:00Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+d0611511-cfbc-4c1d-9756-f5975c6f76b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=9385_h=31_tart_time=2019-06-27T02:06:41Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+86e3ef62-f594-4aaa-8579-902fc23930b_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=5605_h=24_tart_time=2019-06-27T02:07:00Z	2720	
+bb459c76-5b8a-4a68-bb39-6beb49f61c4_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=18841_h=9_tart_time=2019-06-27T13:30:02Z	702	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales		Plesiomonas	
+ec2e9bbf-a2e2-4eae-9904-c17a853bced_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8171_h=48_tart_time=2019-06-27T02:07:06Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+c2a9b0de-4fd5-4b11-977a-b7ef68c617d_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19840_h=39_tart_time=2019-06-27T13:31:04Z	2720	
+6b725fa7-bdd2-4d57-a951-b2dc8324f52_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=19906_h=8_tart_time=2019-06-27T13:31:07Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+8c81d105-d1d1-4563-b2a5-195f5b24354_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=14460_h=40_tart_time=2019-06-27T13:29:51Z	2179	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanothermaceae	Methanothermus	
+8a32bd16-8f61-4782-ac81-eb973907a88_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=15388_h=18_tart_time=2019-06-27T13:29:55Z	2679	
+d25a29c1-4f14-4c31-8a6c-93c3fed9bbb_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8028_h=18_tart_time=2019-06-27T02:06:44Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+b86ef21c-4737-4c4f-9f7d-2473b97141e_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=16604_h=6_tart_time=2019-06-27T13:29:59Z	2771	Eukaryota	Rhodophyta	Bangiophyceae	Cyanidiales	Cyanidiaceae	Cyanidium	Cyanidium caldarium
+e0015176-8419-4de9-9c2d-39761e472a8_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=17347_h=26_tart_time=2019-06-27T13:31:09Z	2220	Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanolobus	
+49cc7dd8-961d-4aa7-a43b-157f59e1ce3_unid=896a4825336f1b251ee829dbca69b32f610e4b5_ampleid=Run_ead=8934_h=34_tart_time=2019-06-27T02:07:16Z	

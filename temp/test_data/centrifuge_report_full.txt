@@ -1,0 +1,34 @@
+seq_id	135461	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus subtilis
+f2d3c5b5_c4c5_4af5_a6f6_e8dcb3127d69	1774743	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus sp. SDLI1
+f2d3c5b5_c4c5_4af5_a6f6_e8dcb3127d69	135461	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus subtilis
+f2d3c5b5_c4c5_4af5_a6f6_e8dcb3127d69	1806506	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus sp. BS34A
+f2d3c5b5_c4c5_4af5_a6f6_e8dcb3127d69	492670	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus velezensis
+f2d3c5b5_c4c5_4af5_a6f6_e8dcb3127d69	0	
+2091cccf_fcf1_40a3_83b5_24c1ddf304d4	1							
+2091cccf_fcf1_40a3_83b5_24c1ddf304d4	2	Bacteria						
+2091cccf_fcf1_40a3_83b5_24c1ddf304d4	1423	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus subtilis
+ef6758d7_8015_4f4d_bd88_87087f8e989b	1639	Bacteria	Firmicutes	Bacilli	Bacillales	Listeriaceae	Listeria	Listeria monocytogenes
+e51d7c83_222a_4bdf_8e9e_791649911120	1312332	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Virgibacillus	Virgibacillus sp. HL28
+39e56180_0776_4213_91b3_9104e3d90eb9	1386	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	
+39e56180_0776_4213_91b3_9104e3d90eb9	1354	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus hirae
+39e56180_0776_4213_91b3_9104e3d90eb9	1							
+39e56180_0776_4213_91b3_9104e3d90eb9	256318							metagenome
+6f7fac8c_b663_4b78_953e_a491b8b05723	256318							metagenome
+3269808a_1324_4ee5_aed9_20eb6fdc1f97	77133	Bacteria						uncultured bacterium
+853745c8_abdb_428d_bcc9_b9a980c721c5	1408	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus pumilus
+853745c8_abdb_428d_bcc9_b9a980c721c5	256318							metagenome
+853745c8_abdb_428d_bcc9_b9a980c721c5	77133	Bacteria						uncultured bacterium
+9b859c8c_ac54_493b_8176_db53612ceaec	256318							metagenome
+9b859c8c_ac54_493b_8176_db53612ceaec	77133	Bacteria						uncultured bacterium
+9b859c8c_ac54_493b_8176_db53612ceaec	77133	Bacteria						uncultured bacterium
+9b859c8c_ac54_493b_8176_db53612ceaec	77133	Bacteria						uncultured bacterium
+9b859c8c_ac54_493b_8176_db53612ceaec	256318							metagenome
+9c6a77d8_7149_436f_872c_eb61c4c37163	573	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella pneumoniae
+84e629ce_57d3_4a1f_8fde_fb82e68b2af2	83428	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	uncultured Bacillus sp.
+5d1d189d_5dda_4107_8a84_6e7e83dff720	1613	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus fermentum
+c7dd64b2_3758_4bab_a6f7_e79f93ceb15e	1407052	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus fermentum
+a14fd101_afb7_4dfb_a00d_2187c8ada3f0	767453	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus fermentum
+a14fd101_afb7_4dfb_a00d_2187c8ada3f0	77133	Bacteria						uncultured bacterium
+d8b681d0_17f7_45fd_a503_b521b4bfb0e6	129861	Viruses						Phage Gifsy-1
+a08b805a_d13c_43f9_ae45_5aa87f365010	119912	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
+a08b805a_d13c_43f9_ae45_5aa87f365010	

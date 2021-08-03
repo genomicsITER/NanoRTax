@@ -1,77 +1,78 @@
 # ![nf-core/rtnanopipeline](docs/images/nf-core-rtnanopipeline_logo.png)
 
-**Real-time analysis pipeline for nanopore metagenomic data**.
+**Real-time analysis pipeline for nanopore 16S rRNA data**.
 
-[![GitHub Actions CI Status](https://github.com/nf-core/rtnanopipeline/workflows/nf-core%20CI/badge.svg)](https://github.com/nf-core/rtnanopipeline/actions)
-[![GitHub Actions Linting Status](https://github.com/nf-core/rtnanopipeline/workflows/nf-core%20linting/badge.svg)](https://github.com/nf-core/rtnanopipeline/actions)
-[![Nextflow](https://img.shields.io/badge/nextflow-%E2%89%A519.10.0-brightgreen.svg)](https://www.nextflow.io/)
-
-[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](http://bioconda.github.io/)
 [![Docker](https://img.shields.io/docker/automated/nfcore/rtnanopipeline.svg)](https://hub.docker.com/r/nfcore/rtnanopipeline)
 
 ## Introduction
 
-The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with docker containers making installation trivial and results highly reproducible.
+The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with conda environments and docker containers making installation trivial and results highly reproducible.
 
 ## Quick Start
 
 i. Install [`nextflow`](https://nf-co.re/usage/installation)
 
-ii. Install either [`Docker`](https://docs.docker.com/engine/installation/) or [`Singularity`](https://www.sylabs.io/guides/3.0/user-guide/) for full pipeline reproducibility (please only use [`Conda`](https://conda.io/miniconda.html) as a last resort; see [docs](https://nf-co.re/usage/configuration#basic-configuration-profiles))
+ii. Install either [`Docker`](https://docs.docker.com/engine/installation/) for full pipeline reproducibility or use [`Conda`](https://conda.io/miniconda.html)
 
-iii. Download the pipeline and test it on a minimal dataset with a single command
+iii. Download the pipeline and example databases and test it on a minimal dataset with a single command
 
 ```bash
-nextflow run nf-core/rtnanopipeline -profile test,<docker/singularity/conda/institute>
+#BLAST database
+mkdir db db/taxdb
+wget https://ftp.ncbi.nlm.nih.gov/blast/db/16S_ribosomal_RNA.tar.gz && tar -xzvf 16S_ribosomal_RNA.tar.gz -C db
+wget https://ftp.ncbi.nlm.nih.gov/blast/db/taxdb.tar.gz && tar -xzvf taxdb.tar.gz -C db/taxdb
+#Kraken2 RDP database
+wget ftp://ftp.ccb.jhu.edu/pub/data/kraken2_dbs/16S_RDP11.5_20200326.tgz && tar -xzvf 16S_RDP11.5_20200326.tgz -C db
+#Centrifuge P_COMPRESSED database (more information: https://ccb.jhu.edu/software/centrifuge/manual.shtml#database-download-and-index-building)
+wget https://genome-idx.s3.amazonaws.com/centrifuge/p_compressed_2018_4_15.tar.gz && tar -xzvf p_compressed_2018_4_15.tar.gz -C db
 ```
 
-> Please check [nf-core/configs](https://github.com/nf-core/configs#documentation) to see if a custom config file to run nf-core pipelines already exists for your Institute. If so, you can simply use `-profile <institute>` in your command. This will enable either `docker` or `singularity` and set the appropriate execution settings for your local compute environment.
+```bash
+nextflow run nf-core/rtnanopipeline -profile test,<docker/conda>
+```
 
 iv. Start running your own analysis!
 
-<!-- TODO nf-core: Update the default command above used to run the pipeline -->
+We provide an example configuration profile with the default parameters for running the pipeline (conf/default.config) and it is a good starting point to easily customize your NanoRTax workflow. This configuration is loaded by specifying "default" in the profiles list of pipeline command. 
 
+Run classification on a single FASTQ file
 ```bash
-nextflow run nf-core/rtnanopipeline -profile <docker/singularity/conda/institute> --reads '*_R{1,2}.fastq.gz' --genome GRCh37
+nextflow run nf-core/rtnanopipeline -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
 ```
+Run classification on an entire sequencing run directory. NanoRTax will detect the barcode directories and analyze all samples
+```bash
+nextflow run nf-core/rtnanopipeline -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
+```
+Real-time classification workflow for running NanoRTax along with a sequencing experiment. Similar to the normal mode but using --reads_rt for input. Partial results stored at output directory and are also accesible (partial output files and webapp visualization). In this mode, the workflow will run endlessly, so it needs to be stopped manually by Ctrl+C once all consumed FASTQ files are completely processed.
+
+Note: This mode is intended to work with non-bulk FASTQ files (ie: 500 reads per file) in order to provide a fluid real-time analysis of generated reads. This aspect can be configured before starting the experiment via MinKNOW sequencing software.
+```bash
+nextflow run nf-core/rtnanopipeline -profile <default,docker/conda> --reads_rt '/seq_path/fastq_pass/**/*.fastq'
+```
+
+v. Visualize partial/complete outputs
+
+NanoRTax comes with a Python Dash web application which provides interactive visualization of partial and complete results.
+```bash
+cd viz_webapp && python dashboard.py
+```
+Start the web application server with the command above and access the interface with a web browser (http://127.0.0.1:8050/ by default).
 
 See [usage docs](docs/usage.md) for all of the available options when running the pipeline.
 
+
 ## Documentation
 
-The nf-core/rtnanopipeline pipeline comes with documentation about the pipeline, found in the `docs/` directory:
+The NanoRTax pipeline comes with documentation about the pipeline, found in the `docs/` directory:
 
-1. [Installation](https://nf-co.re/usage/installation)
-2. Pipeline configuration
-    * [Local installation](https://nf-co.re/usage/local_installation)
-    * [Adding your own system config](https://nf-co.re/usage/adding_own_config)
-    * [Reference genomes](https://nf-co.re/usage/reference_genomes)
-3. [Running the pipeline](docs/usage.md)
-4. [Output and how to interpret the results](docs/output.md)
-5. [Troubleshooting](https://nf-co.re/usage/troubleshooting)
-
-<!-- TODO nf-core: Add a brief overview of what the pipeline does and how it works -->
+[Running the pipeline](docs/usage.md)
+[Output and how to interpret the results](docs/output.md)
 
 ## Credits
 
-nf-core/rtnanopipeline was originally written by Laura Ciuffreda, Héctor Rodríguez Pérez.
+NanoRTax was originally written by Laura Ciuffreda, Héctor Rodríguez Pérez and Carlos Flores.
 
 ## Contributions and Support
 
 If you would like to contribute to this pipeline, please see the [contributing guidelines](.github/CONTRIBUTING.md).
 
-For further information or help, don't hesitate to get in touch on [Slack](https://nfcore.slack.com/channels/rtnanopipeline) (you can join with [this invite](https://nf-co.re/join/slack)).
-
-## Citation
-
-<!-- TODO nf-core: Add citation for pipeline after first release. Uncomment lines below and update Zenodo doi. -->
-<!-- If you use  nf-core/rtnanopipeline for your analysis, please cite it using the following doi: [10.5281/zenodo.XXXXXX](https://doi.org/10.5281/zenodo.XXXXXX) -->
-
-You can cite the `nf-core` publication as follows:
-
-> **The nf-core framework for community-curated bioinformatics pipelines.**
->
-> Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.
->
-> _Nat Biotechnol._ 2020 Feb 13. doi: [10.1038/s41587-020-0439-x](https://dx.doi.org/10.1038/s41587-020-0439-x).  
-> ReadCube: [Full Access Link](https://rdcu.be/b1GjZ)

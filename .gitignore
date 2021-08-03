@@ -1,6 +1,10 @@
 .nextflow*
+nextflow
+.github*
+.vscode*
 work/
 data/
+db/*
 results/
 .DS_Store
 tests/

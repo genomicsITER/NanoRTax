@@ -1,6 +1,6 @@
 FROM nfcore/base:1.9
 LABEL authors="Laura Ciuffreda, Héctor Rodríguez Pérez" \
-      description="Docker image containing all software requirements for the nf-core/rtnanopipeline pipeline"
+      description="Docker image containing all software requirements for the NanoRTax pipeline"
 
 # Install the conda environment
 COPY environment.yml /
@@ -10,4 +10,4 @@ RUN conda env create -f /environment.yml && conda clean -a
 ENV PATH /opt/conda/envs/nf-core-rtnanopipeline-1.0dev/bin:$PATH
 
 # Dump the details of the installed packages to a file for posterity
-RUN conda env export --name nf-core-rtnanopipeline-1.0dev > nf-core-rtnanopipeline-1.0dev.yml
+RUN conda env export --name nanortax1.0dev > nanortax1.0dev.yml
