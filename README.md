@@ -28,7 +28,7 @@ wget https://genome-idx.s3.amazonaws.com/centrifuge/p_compressed_2018_4_15.tar.g
 ```
 
 ```bash
-nextflow run nf-core/rtnanopipeline -profile test,<docker/conda>
+nextflow run main.nf -profile test,<docker/conda>
 ```
 
 iv. Start running your own analysis!
@@ -37,17 +37,17 @@ We provide an example configuration profile with the default parameters for runn
 
 Run classification on a single FASTQ file
 ```bash
-nextflow run nf-core/rtnanopipeline -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
+nextflow run main.nf -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
 ```
 Run classification on an entire sequencing run directory. NanoRTax will detect the barcode directories and analyze all samples
 ```bash
-nextflow run nf-core/rtnanopipeline -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
+nextflow run main.nf -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
 ```
 Real-time classification workflow for running NanoRTax along with a sequencing experiment. Similar to the normal mode but using --reads_rt for input. Partial results stored at output directory and are also accesible (partial output files and webapp visualization). In this mode, the workflow will run endlessly, so it needs to be stopped manually by Ctrl+C once all consumed FASTQ files are completely processed.
 
 Note: This mode is intended to work with non-bulk FASTQ files (ie: 500 reads per file) in order to provide a fluid real-time analysis of generated reads. This aspect can be configured before starting the experiment via MinKNOW sequencing software.
 ```bash
-nextflow run nf-core/rtnanopipeline -profile <default,docker/conda> --reads_rt '/seq_path/fastq_pass/**/*.fastq'
+nextflow run main.nf -profile <default,docker/conda> --reads_rt '/seq_path/fastq_pass/**/*.fastq'
 ```
 
 v. Visualize partial/complete outputs
