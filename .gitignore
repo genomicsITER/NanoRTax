@@ -1,4 +1,5 @@
 .nextflow*
+.github
 nextflow
 .github*
 .vscode*

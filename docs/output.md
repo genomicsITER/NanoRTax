@@ -1,4 +1,4 @@
-# nf-core/rtnanopipeline: Output
+# NanoRTax: Output
 
 This document describes the output produced by the pipeline.
 
@@ -9,13 +9,15 @@ This document describes the output produced by the pipeline.
 Inside output directory, sample results are organized based on barcode/sample directory name. The following files can be found there:
 
 * `classifier_diveristy_taxlevel.csv`
-  * Diversity information at every step (read file) of the analysis for the specific classifier tool and taxonomic level.
+  * Diversity information at every step (individual read file) of the analysis for the specific classifier tool and taxonomic level. Includes Shannon index, Simpson index and taxa count.
 * `classifier_report_taxlevel.csv`
-  * Simple report containing tax name -> read count for the specific classifier tool and taxonomic level. 
+  * Simple report containing tax name (retrieved from Taxonkit) and read count for the specific classifier tool and taxonomic level. 
 * `classifier_report_full.csv`
   * Simple report containing the complete taxonomic information extracted with taxonkit for every read in the dataset. Also available in OTU format.
 * `qc_report.csv`
   * Complete QC report file.
+
+Note that diversity and classification reports are created for all included classifiers in the workflow and for class, order, family, genus and species level.
 
 ## Web Application
 

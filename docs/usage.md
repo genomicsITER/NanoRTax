@@ -1,26 +1,18 @@
-# nf-core/rtnanopipeline: Usage
+# NanoRTax: Usage
 
 ## Table of contents
 
 * [Table of contents](#table-of-contents)
 * [Introduction](#introduction)
 * [Running the pipeline](#running-the-pipeline)
-  * [Updating the pipeline](#updating-the-pipeline)
-  * [Reproducibility](#reproducibility)
 * [Main arguments](#main-arguments)
   * [`-profile`](#-profile)
   * [`--reads / --reads_rt`](#--reads and --reads_rt)
  
 * [Other command line parameters](#other-command-line-parameters)
   * [`--outdir`](#--outdir)
-  * [`--email`](#--email)
-  * [`--email_on_fail`](#--email_on_fail)
-  * [`--max_multiqc_email_size`](#--max_multiqc_email_size)
   * [`-name`](#-name)
   * [`-resume`](#-resume)
-  * [`-c`](#-c)
-  * [`--custom_config_version`](#--custom_config_version)
-  * [`--custom_config_base`](#--custom_config_base)
   * [`--max_memory`](#--max_memory)
   * [`--max_time`](#--max_time)
   * [`--max_cpus`](#--max_cpus)
@@ -40,10 +32,10 @@ NXF_OPTS='-Xms1g -Xmx4g'
 
 ## Running the pipeline
 
-The typical command for running the pipeline is as follows:
+The typical command for running the pipeline on a sample is as follows:
 
 ```bash
-nextflow run nf-core/rtnanopipeline --reads '*_R{1,2}.fastq.gz' -profile docker
+nextflow run main.nf --reads '/path_to_sample_reads/*.fastq' -profile docker
 ```
 
 This will launch the pipeline with the `docker` configuration profile. See below for more information about profiles.
@@ -85,7 +77,7 @@ If `-profile` is not specified, the pipeline will run locally and expect all sof
   * A profile with a complete configuration for automated testing
   * Includes links to test data so needs no other parameters
 * `default`
-  * A profile with a complete configuration for automated testing using all classifiers and default parametes
+  * A profile with a complete configuration for automated testing using all classifiers and default parameters
   * Edit this file to quickly set up your own configuration for the classification workflow
 
 <!-- TODO nf-core: Document required command line parameters -->

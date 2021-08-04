@@ -35,20 +35,24 @@ iv. Start running your own analysis!
 
 We provide an example configuration profile with the default parameters for running the pipeline (conf/default.config) and it is a good starting point to easily customize your NanoRTax workflow. This configuration is loaded by specifying "default" in the profiles list of pipeline command. 
 
-Run classification on a single FASTQ file
+a. Run classification on a single FASTQ file
+```bash
+nextflow run main.nf -profile <default,docker/conda> --reads '/seq_path/sample.fastq'
+```
+b. Run classification on an entire sequencing run directory. NanoRTax will detect the barcode directories and analyze all samples:
 ```bash
 nextflow run main.nf -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
 ```
-Run classification on an entire sequencing run directory. NanoRTax will detect the barcode directories and analyze all samples
-```bash
-nextflow run main.nf -profile <default,docker/conda> --reads '/seq_path/fastq_pass/**/*.fastq'
-```
-Real-time classification workflow for running NanoRTax along with a sequencing experiment. Similar to the normal mode but using --reads_rt for input. Partial results stored at output directory and are also accesible (partial output files and webapp visualization). In this mode, the workflow will run endlessly, so it needs to be stopped manually by Ctrl+C once all consumed FASTQ files are completely processed.
 
-Note: This mode is intended to work with non-bulk FASTQ files (ie: 500 reads per file) in order to provide a fluid real-time analysis of generated reads. This aspect can be configured before starting the experiment via MinKNOW sequencing software.
+c. Real-time mode.
+
 ```bash
 nextflow run main.nf -profile <default,docker/conda> --reads_rt '/seq_path/fastq_pass/**/*.fastq'
 ```
+
+Similar to the normal mode but using --reads_rt for input. Partial results stored at output directory and are also accesible (.csv files and webapp visualization). In this mode, the workflow will run endlessly, so it needs to be stopped manually by Ctrl+C once all consumed FASTQ files are completely processed.
+
+Note: This mode is intended to work with non-bulk FASTQ files (ie: 500 reads per file) in order to provide a fluid real-time analysis of generated reads. This aspect can be configured before starting the experiment via MinKNOW sequencing software.
 
 v. Visualize partial/complete outputs
 
