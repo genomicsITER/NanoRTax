@@ -167,6 +167,7 @@ process QC {
     barcode=\$(basename \$(dirname $reads))
     fastp -i $read_file -q 8 -l ${params.min_read_length} --length_limit ${params.max_read_length} -o \$barcode\\_qced_reads.fastq --json \$barcode\\_qc_report.txt
     head -n30 \$barcode\\_qc_report.txt | sed '30s/,/\\n}/' > \$barcode\\_qc_report.json
+    echo "}" >> \$barcode\\_qc_report.json
     
     """
 }
@@ -181,6 +182,12 @@ process qc_reporting {
     file('*.csv')
 
   script:
+  if(workflow.profile == 'conda' || workflow.profile == 'test,conda'){
+          report_dir = "$baseDir/viz_webapp/data/${barcode}/qc_report.csv"
+      }
+      else {
+          report_dir = "/tmp/viz_webapp/data/${barcode}/qc_report.csv"
+      }
     template 'qc_report.py'
 }
 
@@ -387,6 +394,7 @@ process agg_kraken_diversity {
 
 if(blast_clsf) {
   process read_binning_blast {
+    cpus 32
     publishDir "${params.outdir}/${barcode}/", mode: 'copy'
     input: 
       tuple val(barcode), file(fastq_qced) from fastq_qced_blast
@@ -409,7 +417,7 @@ if(blast_clsf) {
       export BLASTDB=
       export BLASTDB=\$BLASTDB:${taxdb_dir}
       sed -n '1~4s/^@/>/p;2~4p' $fastq_qced > out.fasta
-      blastn -query out.fasta -db ${db} -task blastn -dust no -outfmt "10 qseqid staxids evalue length pident" -evalue ${params.blast_evalue} -max_hsps ${params.blast_max_hsps} -max_target_seqs 5 | awk 'NR % 5 == 0' | sed 's/,/;/g' > ${barcode}_blastreport.txt
+      blastn -query out.fasta -db ${db} -num_threads 32 -task blastn -dust no -outfmt "10 qseqid staxids evalue length pident" -evalue ${params.blast_evalue} -max_hsps ${params.blast_max_hsps} -max_target_seqs 4 | awk 'NR % 5 == 0' | sed 's/,/;/g' > ${barcode}_blastreport.txt
 
       echo "seq_id" > seq_ids.txt 
       awk -F ";" '{print \$1}' ${barcode}_blastreport.txt >> seq_ids.txt       

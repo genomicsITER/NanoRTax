@@ -11,3 +11,6 @@ results/
 tests/
 testing/
 *.pyc
+*.gz
+*.tgz
+*.tar.gz

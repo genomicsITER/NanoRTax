@@ -1,0 +1,16 @@
+name: nanortax_webapp
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - conda-forge::python
+  - conda-forge::dash
+  - conda-forge::dash-core-components
+  - conda-forge::dash-html-components
+  - conda-forge::dash-bootstrap-components
+  - conda-forge::dash-table
+  - anaconda::scikit-bio
+  - plotly::plotly
+  - numpy
+  - pandas

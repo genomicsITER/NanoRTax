@@ -14,7 +14,6 @@ import csv
 import skbio
 import plotly.express as px
 
-
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 SIDEBAR_STYLE = {
@@ -51,14 +50,6 @@ CARD_QC_TEXT_STYLE = {
 
 #TO DO
 #Fetch run data from config files
-
-
-#DB query
-#client = MongoClient(host='mongo')
-#db = client['test_1_barcodes']
-
-#Dash webapp components
-#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 navbar = dbc.NavbarSimple(
         children=[
@@ -128,7 +119,7 @@ bc_radiolist = dbc.RadioItems(
     #     {"label": "barcode11", "value": 'bc11'},
     # ],
     labelCheckedStyle={"color": "green"},
-    value='barcode01'
+    value='test_data'
 )
 
 generate_otu = html.Div(
@@ -276,16 +267,6 @@ index_diversity_curve = dbc.Row(
     ]
 )
 
-index_layout = html.Div(
-    [
-        sidebar,
-        html.P(),
-        html.Div(cards),
-        index_diversity_curve,
-    ],
-    style=CONTENT_STYLE
-)
-
 #Sample page components
 
 content_qc = dbc.Row(
@@ -393,15 +374,15 @@ content_diversity_curve = dbc.Row([
 tax_info = html.Div(
     [
         dbc.Row([dbc.Col(
-                [#html.H4(children=['Diversity Index']),
-                #html.Div(id='diversity_table')
+                [html.H4(children=['Diversity Index']),
+                html.Div(id='diversity_table'),
+                html.P(),
                 content_diversity_curve],
-                width=6,
-            ),
-            dbc.Col(
-                    [html.H4(children=['Relative Abundance']), html.Div(id='data_table')],
-            width=6,)])
-    ]
+                width=12,
+                )
+            ]
+        )
+    ]   
 )
 
 tab_content = html.Div(
@@ -423,23 +404,36 @@ tabs = html.Div(
             id="tabs",
             active_tab="kraken",
         ),
-        html.Div(id="content"),
+        
     ]
+)
+
+index_layout = html.Div(
+    [
+        sidebar,
+        tabs,
+        html.P(),
+        html.Div(cards),
+        index_diversity_curve,
+    ],
+    style=CONTENT_STYLE
 )
 
 content_layout = html.Div(
     [
         sidebar,
         tabs,
+        content_qc,
+        html.Div(id="content"),
         html.P(),
         content_first_row,
         html.P(),
-        content_diversity_curve,
+        tax_info,
     ],
     style=CONTENT_STYLE
 )
 
-app = dash.Dash(external_stylesheets=[dbc.themes.LUMEN])
+app = dash.Dash(external_stylesheets=[dbc.themes.LUMEN],suppress_callback_exceptions=True)
 
 app.layout = html.Div([
     html.Div(id='page-content', children=[navbar, content_layout])
@@ -479,7 +473,7 @@ def diversity_all_curve_graph(at, level, index, chunk_size):
         diversity = []
         read_count = []
         max_reads = 0
-        for pos in range(0, diveristy_time_data.shape[0], int(chunk_size)):
+        for pos in range(int(chunk_size), diveristy_time_data.shape[0], int(chunk_size)):
             df_subset = diveristy_time_data.iloc[0:pos]
             read_count.append(df_subset.shape[0])
             tax_table = df_subset[level].value_counts()
@@ -557,7 +551,7 @@ def diversity_curve_graph(at, barcode, level, index, chunk_size):
     diversity_simpson = []
     taxa_count= []
     read_count = []
-    for pos in range(0, diveristy_time_data.shape[0], int(chunk_size)):
+    for pos in range(int(chunk_size), diveristy_time_data.shape[0], int(chunk_size)):
         df_subset = diveristy_time_data.iloc[0:pos]
         read_count.append(df_subset.shape[0])
         tax_table = df_subset[level_dict[level]].value_counts()
@@ -591,11 +585,11 @@ def diversity_curve_graph(at, barcode, level, index, chunk_size):
                    yaxis_title='Index')
     return fig
 
-@app.callback(Output('diversity_curve_plot', 'figure'), 
-              Input("tabs", "active_tab"), Input("bc_radiochecklist", "value"), Input("tax_level", "value"), 
-              Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"))
-def update_diversity_graph(at, barcode, level, index, chunk_size):
-    return diversity_curve_graph(at, barcode, level, index, chunk_size)
+#@app.callback(Output('diversity_curve_plot', 'figure'), 
+#              Input("tabs", "active_tab"), Input("bc_radiochecklist", "value"), Input("tax_level", "value"), 
+#              Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"))
+#def update_diversity_graph(at, barcode, level, index, chunk_size):
+#    return diversity_curve_graph(at, barcode, level, index, chunk_size)
 
 @app.callback(
     Output("alert-auto", "is_open"),
@@ -620,7 +614,7 @@ def generate_otu(n, is_open, at):
     return is_open
 
 
-@app.callback(Output('data_table', 'children'),Output('bar_plot', 'figure'),Output('card_text_1', 'children'),Output('diversity_table', 'children'), Output('qc_table', 'children'), Output('diversity_curve_plot', 'figure'), 
+@app.callback(Output('data_table', 'children'),Output('bar_plot', 'figure'),Output('diversity_table', 'children'), Output('qc_table', 'children'), Output('diversity_curve_plot', 'figure'), 
               Input("tabs", "active_tab"), Input("bc_radiochecklist", "value"), Input("tax_level", "value"), Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"), Input("other_threshold", "value"))
 def switch_tab(at, barcode, level, index, chunk_size, other_label):
     data, graph = update_assets(barcode, at, level, other_label)
@@ -632,7 +626,7 @@ def switch_tab(at, barcode, level, index, chunk_size, other_label):
         #columns=[{'id': 'Shannon', 'name': 'Shannon'}, {'id': 'Simpson', 'name': 'Simpson'}],
         style_cell={'textAlign': 'left', 'padding': '5px'},
         style_as_list_view=True,
-        style_table={'height': '1500px', 'overflowY': 'auto'},
+        style_table={'height': 'auto', 'overflowY': 'auto'},
         page_size=20,
         style_header={
             'fontWeight': 'bold'
@@ -652,7 +646,7 @@ def switch_tab(at, barcode, level, index, chunk_size, other_label):
 
     diversity_time_fig = diversity_curve_graph(at, barcode, level, index, chunk_size)
 
-    return data, graph, 50000, diversity_data_table, qc_data_table, diversity_time_fig
+    return data, graph, diversity_data_table, qc_data_table, diversity_time_fig
 
 if __name__ == '__main__':
     app.run_server(debug=True)
