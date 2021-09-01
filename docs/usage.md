@@ -6,8 +6,17 @@
 * [Introduction](#introduction)
 * [Running the pipeline](#running-the-pipeline)
 * [Main arguments](#main-arguments)
+  * [`-name`](#-name)
   * [`-profile`](#-profile)
   * [`--reads / --reads_rt`](#--reads and --reads_rt)
+  * [`--kraken_db`](#--kraken_db)
+  * [`--centrifuge_db`](#--centrifuge_db)
+  * [`--blast_db`](#--blast_db)
+  * [`--blast_taxdb`](#--blast_taxdb)
+  * [`--cntrf_min_hitlen`](#--cntrf_min_hitlen)
+  * [`--blast_evalue`](#--blast_evalue)
+  * [`--blast_max_hsps`](#--blast_max_hsps)
+  * [`--min_read_length --max_read_length`](#--min_read_length --max_read_length)
  
 * [Other command line parameters](#other-command-line-parameters)
   * [`--outdir`](#--outdir)
@@ -28,14 +37,12 @@ It is recommended to limit the Nextflow Java virtual machines memory. We recomme
 NXF_OPTS='-Xms1g -Xmx4g'
 ```
 
-<!-- TODO nf-core: Document required command line parameters to run the pipeline-->
-
 ## Running the pipeline
 
 The typical command for running the pipeline on a sample is as follows:
 
 ```bash
-nextflow run main.nf --reads '/path_to_sample_reads/*.fastq' -profile docker
+nextflow run main.nf -name 'example_run' --reads '/path_to_sample_reads/*.fastq' -profile docker
 ```
 
 This will launch the pipeline with the `docker` configuration profile. See below for more information about profiles.
@@ -51,15 +58,21 @@ results         # Finished results (configurable, see below)
 
 ## Main arguments
 
+### `-name`
+
+Use a name to identify all the samples/barcodes contained in the pipeline run. This name will be used by the web application to better group samples that were analysed with the same configuration parameters in the same run.
+
 ### `-profile`
 
-Use this parameter to choose a configuration profile. Profiles can give configuration presets for different compute environments.
+Use this parameter to choose a configuration profile. Profiles can give configuration and parameters presets for different compute environments or use cases.
 
-Several generic profiles are bundled with the pipeline which instruct the pipeline to use software packaged using different methods (Docker, Singularity, Conda) - see below.
+Several generic profiles are bundled with the pipeline which instruct the pipeline to use software packaged using different methods (Docker, Conda). A "test" profile is also included with preloaded parameters for running a testing execution of NanoRTax
 
-> We highly recommend the use of Docker, however when this is not possible, Conda is also supported.
+We strongly recommend to use profile configuration files for specifying pipeline parameters and options for the classification steps. Profiles aim to simplify the pipeline execution command and provide an easy way to keep track of parametrization of past runs.
 
-The pipeline also dynamically loads configurations from [https://github.com/nf-core/configs](https://github.com/nf-core/configs) when it runs, making multiple config profiles for various institutional clusters available at run time. For more information and to see if your system is available in these configs please see the [nf-core/configs documentation](https://github.com/nf-core/configs#documentation).
+A good starting point for creating your own profile could be coping the content of the included test profile (./conf/test.config) and editing it with the new parameters of choice.
+
+> We encourage the use of Docker, however when this is not possible, Conda is also supported.
 
 Note that multiple profiles can be loaded, for example: `-profile test,docker` - the order of arguments is important!
 They are loaded in sequence, so later profiles can overwrite earlier profiles.
@@ -145,7 +158,7 @@ Maximum number of HSPs (alignments) to keep for any single query-subject pair. T
 
 ### `--min_read_length --max_read_length`
 
-Read length thresholds for the QC step. Default (1400-1700) selects near full-length 16S rRNA reads for more accurate taxonomic classification
+Read length thresholds for the QC step. Default (1400-1700) selects near full-length 16S rRNA reads for more accurate taxonomic classification.
 
 ### `--outdir`
 

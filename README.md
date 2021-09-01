@@ -2,11 +2,14 @@
 
 **Real-time analysis pipeline for nanopore 16S rRNA data**.
 
-[![Docker](https://img.shields.io/docker/automated/nfcore/rtnanopipeline.svg)](https://hub.docker.com/r/hecrp/nanortax)
+[![Docker](https://img.shields.io/docker/automated/hecrp/nanortax.svg)](https://hub.docker.com/r/hecrp/nanortax)
 
 ## Introduction
 
-The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with conda environments and docker containers making installation trivial and results highly reproducible.
+NanoRTax is a taxonomic and diversity analysis pipeline built originally for Nanopore 16S rRNA data with real-time analysis support in mind. It combines state-of-the-art classifiers such as Kraken2, Centrifuge and BLAST with downstream analysis steps to provide a comprehensive output. NanoRTax retrieves the final output files in the same structure/format for every classifier which enables more comprehensive tool/database comparison and better benchmarking capabilities. Additionally, NanoRTax includes a web application (./viz_webapp/) for visualizing complete or in-progress pipeline runs. 
+
+
+The NanoRTax pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with conda environments and docker containers making installation trivial and results highly reproducible.
 
 ## Quick Start
 

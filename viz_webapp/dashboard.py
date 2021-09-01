@@ -534,7 +534,7 @@ def update_assets(run_name, barcode, tool, level, other_label):
     except:
         first_sample = next(os.walk("data/"+ str(run_name) + "/"))[1][0]
         top_taxa = pd.read_csv("data/" + str(run_name) + "/" + str(first_sample) + "/" + tool + "_report_" + level_dict[level] + ".csv")
-        
+
     data_table_columns = [{"name": i, "id": i} for i in sorted(top_taxa.columns)],
     if(len(top_taxa)):
         grouped_data = top_taxa.groupby("tax_id",as_index=False).sum().sort_values(by="read_count", ascending= False).reset_index(drop=True)
@@ -650,7 +650,10 @@ def generate_otu(n, run_name, is_open, at):
 def switch_tab(at, run_name, barcode, level, index, chunk_size, other_label):
     data, graph = update_assets(run_name, barcode, at, level, other_label)
     level_dict = {1: "family", 2: "class", 3: "order", 4: "genus", 5: "species"}
-    diversity_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/" + at + "_diversity_full_" + level_dict[level] + ".csv", names=["Total reads","Shannon", "Simpson"])
+    try:
+        diversity_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/" + at + "_diversity_full_" + level_dict[level] + ".csv", names=["Total reads","Shannon", "Simpson"])
+    except:
+        first_sample = next(os.walk("data/"+ str(run_name) + "/"))[1][0]
     diversity_data_table = dash_table.DataTable(
         data=diversity_data.to_dict('records'),
         columns=[{'id': c, 'name': c} for c in diversity_data.columns],
