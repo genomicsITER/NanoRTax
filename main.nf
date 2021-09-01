@@ -48,6 +48,7 @@ if (params.help) {
 // Has the run name been specified by the user?
 //  this has the bonus effect of catching both -name and --name
 custom_runName = params.name
+run_name = params.name
 if (!(workflow.runName ==~ /[a-z]+_[a-z]+/)) {
     custom_runName = workflow.runName
 }
@@ -174,8 +175,8 @@ process QC {
 
 process qc_reporting {
   maxForks 1
-  publishDir "${params.outdir}/${barcode}/", mode: 'copy'
-  publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
+  publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
+  publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
   input:
     tuple val(barcode), file(report) from reports_qc
   output:
@@ -195,8 +196,7 @@ if(centrifuge_clsf) {
 
   process read_binning_cntrf {
 
-    publishDir "${params.outdir}/${barcode}/", mode: 'copy'
-    publishDir "${baseDir}/viz_webapp/data/${barcode}/centrifuge_pruebas/", mode: 'copy'
+    publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
     input: 
       tuple val(barcode), file(fastq_qced) from fastq_qced_centrifuge
 
@@ -235,8 +235,8 @@ if(centrifuge_clsf) {
 
   process agg_centrifuge {
     maxForks 1
-    publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
-    publishDir "${baseDir}/temp/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/temp/${run_name}/${barcode}/", mode: 'copy'
     input:
       tuple val(barcode), file(new_report), file(new_summary), file (otu_summary) from cntrf_agg_ch
     output:
@@ -256,8 +256,8 @@ if(centrifuge_clsf) {
 
   process cntrf_push {
     maxForks 1
-    publishDir "${params.outdir}/${barcode}/", mode: 'copy'
-    publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
+    publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
     input:
       tuple val(barcode), file(summary), file(otu_summary) from reports_cntrf
     output:
@@ -269,8 +269,8 @@ if(centrifuge_clsf) {
   }
 
   process agg_cntrf_diversity {
-    publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
-    publishDir "${baseDir}/temp/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/temp/${run_name}/${barcode}/", mode: 'copy'
     input:
       tuple val(barcode), file(report_class), file(report_order), file(report_family), file(report_genus), file(report_species) from agg_centrifuge_diversity_ch
     output:
@@ -299,8 +299,8 @@ if(centrifuge_clsf) {
 //if(kraken_clsf) {
 
 process read_binning_kraken {
-  publishDir "${params.outdir}/${barcode}/", mode: 'copy'
-  publishDir "${baseDir}/viz_webapp/data/${barcode}", mode: 'copy'
+  publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
+  publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}", mode: 'copy'
   input:
     tuple val(barcode), file(fastq_qced) from fastq_qced_kraken
 
@@ -332,8 +332,8 @@ process read_binning_kraken {
 process agg_kraken {
 
   maxForks 1
-  publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
-  publishDir "${baseDir}/temp/${barcode}/", mode: 'copy'
+  publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
+  publishDir "${baseDir}/temp/${run_name}/${barcode}/", mode: 'copy'
   input:
     tuple val(barcode), file(new_report), file(otu_summary) from kraken_agg_ch
   output:
@@ -353,8 +353,8 @@ process agg_kraken {
 
 process kraken_push {
   maxForks 1
-  publishDir "${params.outdir}/${barcode}/", mode: 'copy'
-  publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
+  publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
+  publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
   input:
     tuple val(barcode), file(report), file(report_otu) from reports_krk
   output:
@@ -366,8 +366,8 @@ process kraken_push {
 }
 
 process agg_kraken_diversity {
-  publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
-  publishDir "${baseDir}/temp/${barcode}/", mode: 'copy'
+  publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
+  publishDir "${baseDir}/temp/${run_name}/${barcode}/", mode: 'copy'
   input:
     tuple val(barcode), file(report_class), file(report_order), file(report_family), file(report_genus), file(report_species) from agg_kraken_diversity_ch
   output:
@@ -395,7 +395,7 @@ process agg_kraken_diversity {
 if(blast_clsf) {
   process read_binning_blast {
     cpus 32
-    publishDir "${params.outdir}/${barcode}/", mode: 'copy'
+    publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
     input: 
       tuple val(barcode), file(fastq_qced) from fastq_qced_blast
 
@@ -432,8 +432,8 @@ if(blast_clsf) {
 
   process agg_blast {
     maxForks 1
-    publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
-    publishDir "${baseDir}/temp/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/temp/${run_name}/${barcode}/", mode: 'copy'
     input:
       tuple val(barcode), file(new_report), file(new_summary), file (otu_summary) from blast_agg_ch
     output:
@@ -453,8 +453,8 @@ if(blast_clsf) {
 
   process blast_push {
     maxForks 1
-    publishDir "${params.outdir}/${barcode}/", mode: 'copy'
-    publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
+    publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
     input:
       tuple val(barcode), file(summary) from reports_blast
     output:
@@ -466,8 +466,8 @@ if(blast_clsf) {
   }
 
   process agg_blast_diversity {
-    publishDir "${baseDir}/viz_webapp/data/${barcode}/", mode: 'copy'
-    publishDir "${baseDir}/temp/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/viz_webapp/data/${run_name}/${barcode}/", mode: 'copy'
+    publishDir "${baseDir}/temp/${run_name}/${barcode}/", mode: 'copy'
     input:
       tuple val(barcode), file(report_class), file(report_order), file(report_family), file(report_genus), file(report_species) from agg_blast_diversity_ch
     output:

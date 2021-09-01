@@ -14,6 +14,7 @@ import csv
 import skbio
 import plotly.express as px
 
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 SIDEBAR_STYLE = {
@@ -50,6 +51,14 @@ CARD_QC_TEXT_STYLE = {
 
 #TO DO
 #Fetch run data from config files
+
+
+#DB query
+#client = MongoClient(host='mongo')
+#db = client['test_1_barcodes']
+
+#Dash webapp components
+#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 navbar = dbc.NavbarSimple(
         children=[
@@ -110,16 +119,18 @@ controls = dbc.FormGroup(
 )
 
 
-bc_radiolist = dbc.RadioItems(
-    id="bc_radiochecklist",
+bc_radiolist_run = dbc.Select(
+    id="bc_radiochecklist_run",
     options=[{"label": barcode, "value":barcode} for barcode in next(os.walk("data/"))[1]],
-    # [
-    #     {"label": "barcode01", "value": 'bc01'},
-    #     {"label": "barcode02", "value": 'bc02'},
-    #     {"label": "barcode11", "value": 'bc11'},
-    # ],
+    placeholder='Run name',
+    value=next(os.walk("data/"))[1][0]
+)
+
+bc_radiolist_sample = dbc.RadioItems(
+    id="bc_radiochecklist_sample",
+    options=[],
     labelCheckedStyle={"color": "green"},
-    value='test_data'
+    value=next(os.walk("data/" + next(os.walk("data/"))[1][0]))[1][0]
 )
 
 generate_otu = html.Div(
@@ -144,7 +155,8 @@ sidebar = html.Div(
         html.Hr(),
         controls,
         html.H3('Samples', style=TEXT_STYLE),
-        bc_radiolist,
+        bc_radiolist_run,
+        bc_radiolist_sample,
         html.Hr(),
         generate_otu
     ],
@@ -153,45 +165,7 @@ sidebar = html.Div(
 
 #Index components:
 
-cards = []
-colors = ['green', 'crimson','red', 'darkred']
-for barcode in next(os.walk("data/"))[1]:
-    qc_data = pd.read_csv("data/" + str(barcode) + "/qc_report.csv")
-    bars = [go.Bar(y=[barcode],
-                x=[qc_data.iloc[0, i]],
-                name=str(qc_data.columns[i]),
-                width=0.5,
-                orientation='h',
-                marker_color=colors[i-1]) 
-                for i in range(1, 5)]
-    graph = go.Figure(bars,layout=go.Layout(barmode='stack'))
-    graph_component = dcc.Graph(figure=graph, style={"height": "260px"})
-    qc_data_table = dash_table.DataTable(
-        data=qc_data.to_dict('records'),
-        columns=[{'id': c, 'name': c} for c in qc_data.columns],
-        style_cell={'textAlign': 'left', 'padding': '5px'},
-        style_as_list_view=True,
-        style_header={
-            'fontWeight': 'bold'
-        },
-    )
-    card = dbc.Row(
-        dbc.Col(
-            html.Div(
-                dbc.Card(
-                    [dbc.CardHeader(barcode),
-                    dbc.CardBody(
-                        [
-                            qc_data_table,
-                            graph_component,
-                        ]
-                    )], className="mb-3",color="primary", outline=True
-                    #style={"width": "18rem"},
-                )
-            ), width=12
-        )
-    )
-    cards.append(card)
+qc_cards = html.Div(id = "qc_cards", children = [])
 
 index_diversity_curve = dbc.Row(
     [
@@ -267,6 +241,16 @@ index_diversity_curve = dbc.Row(
     ]
 )
 
+index_layout = html.Div(
+    [
+        sidebar,
+        html.P(),
+        qc_cards,
+        index_diversity_curve,
+    ],
+    style=CONTENT_STYLE
+)
+
 #Sample page components
 
 content_qc = dbc.Row(
@@ -285,7 +269,7 @@ content_first_row = html.Div(
     dbc.Row(dbc.Col(
         html.Div(
                 dbc.Card(
-                    [dbc.CardHeader("Taxonomic classiffication for " + barcode),
+                    [dbc.CardHeader("Taxonomic classiffication"),
                     dbc.CardBody(
                         [
                             dcc.Graph(id='bar_plot'),
@@ -374,15 +358,15 @@ content_diversity_curve = dbc.Row([
 tax_info = html.Div(
     [
         dbc.Row([dbc.Col(
-                [html.H4(children=['Diversity Index']),
-                html.Div(id='diversity_table'),
-                html.P(),
+                [#html.H4(children=['Diversity Index']),
+                #html.Div(id='diversity_table')
                 content_diversity_curve],
-                width=12,
-                )
-            ]
-        )
-    ]   
+                width=6,
+            ),
+            dbc.Col(
+                    [html.H4(children=['Relative Abundance']), html.Div(id='data_table')],
+            width=6,)])
+    ]
 )
 
 tab_content = html.Div(
@@ -404,36 +388,23 @@ tabs = html.Div(
             id="tabs",
             active_tab="kraken",
         ),
-        
+        html.Div(id="content"),
     ]
-)
-
-index_layout = html.Div(
-    [
-        sidebar,
-        tabs,
-        html.P(),
-        html.Div(cards),
-        index_diversity_curve,
-    ],
-    style=CONTENT_STYLE
 )
 
 content_layout = html.Div(
     [
         sidebar,
         tabs,
-        content_qc,
-        html.Div(id="content"),
         html.P(),
         content_first_row,
         html.P(),
-        tax_info,
+        content_diversity_curve,
     ],
     style=CONTENT_STYLE
 )
 
-app = dash.Dash(external_stylesheets=[dbc.themes.LUMEN],suppress_callback_exceptions=True)
+app = dash.Dash(external_stylesheets=[dbc.themes.LUMEN])
 
 app.layout = html.Div([
     html.Div(id='page-content', children=[navbar, content_layout])
@@ -458,22 +429,72 @@ def display_page(n_clicks, active):
         return [navbar, index_layout], new_active
     else:
         return [navbar, content_layout], new_active
+
 #UPDATE REFRESH RATIO
 @app.callback(Output('interval-component', 'interval'),
               [Input('update-ratio', 'value')])
 def update_refresh_ratio(n):
     return (int(n) * 1000)
 
+#Update sample list menu
+
+@app.callback(Output('bc_radiochecklist_sample', 'options'), Output('bc_radiochecklist_sample', 'value'),Output('qc_cards', 'children'),
+              Input('bc_radiochecklist_run', 'value'))
+def update_sample_menu(run_name):
+    sample_list = [{"label": barcode, "value":barcode} for barcode in next(os.walk("data/" + str(run_name) + "/"))[1]]
+    selected_sample = next(os.walk("data/" + str(run_name) + "/"))[1][0]
+    cards = []
+    colors = ['green', 'crimson','red', 'darkred']
+    for barcode in next(os.walk("data/" + str(run_name) + "/"))[1]:
+        qc_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/qc_report.csv")
+        bars = [go.Bar(y=[barcode],
+                    x=[qc_data.iloc[0, i]],
+                    name=str(qc_data.columns[i]),
+                    width=0.5,
+                    orientation='h',
+                    marker_color=colors[i]) 
+                    for i in range(0, 4)]
+        graph = go.Figure(bars,layout=go.Layout(barmode='stack'))
+        graph_component = dcc.Graph(figure=graph, style={"height": "260px"})
+        qc_data_table = dash_table.DataTable(
+            data=qc_data.to_dict('records'),
+            columns=[{'id': c, 'name': c} for c in qc_data.columns],
+            style_cell={'textAlign': 'left', 'padding': '5px'},
+            style_as_list_view=True,
+            style_header={
+                'fontWeight': 'bold'
+            },
+        )
+        card = dbc.Row(
+            dbc.Col(
+                html.Div(
+                    dbc.Card(
+                        [dbc.CardHeader(barcode),
+                        dbc.CardBody(
+                            [
+                                qc_data_table,
+                                graph_component,
+                            ]
+                        )], className="mb-3",color="primary", outline=True
+                        #style={"width": "18rem"},
+                    )
+                ), width=12
+            )
+        )
+        cards.append(card)
+
+    return sample_list, selected_sample, cards
+
 #Index callbacks:
 
-def diversity_all_curve_graph(at, level, index, chunk_size):
+def diversity_all_curve_graph(run_name, at, level, index, chunk_size):
     fig = go.Figure()
-    for barcode in next(os.walk("data/"))[1]:
-        diveristy_time_data = pd.read_csv("data/" + str(barcode) + "/" + at + "_report_full.txt", delimiter="\t",  names=['seq_id', 'tax_id', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'])
+    for barcode in next(os.walk("data/" + str(run_name) + "/"))[1]:
+        diveristy_time_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/" + at + "_report_full.txt", delimiter="\t",  names=['seq_id', 'tax_id', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'])
         diversity = []
         read_count = []
         max_reads = 0
-        for pos in range(int(chunk_size), diveristy_time_data.shape[0], int(chunk_size)):
+        for pos in range(0, diveristy_time_data.shape[0], int(chunk_size)):
             df_subset = diveristy_time_data.iloc[0:pos]
             read_count.append(df_subset.shape[0])
             tax_table = df_subset[level].value_counts()
@@ -500,15 +521,20 @@ def diversity_all_curve_graph(at, level, index, chunk_size):
 
 @app.callback(Output('diversity_curve_plot_all', 'figure'), 
               Input("diversity_classifier_checklist", "value"), Input("diversity_tax_level_checklist", "value"), 
-              Input("diversity_index_all_checklist", "value"), Input("chunk_size_all_select", "value"))
-def update_diversity_all_graph(at, level, index, chunk_size):
-    return diversity_all_curve_graph(at, level, index, chunk_size)
+              Input("diversity_index_all_checklist", "value"), Input("chunk_size_all_select", "value"), State("bc_radiochecklist_run", "value"))
+def update_diversity_all_graph(at, level, index, chunk_size, run_name):
+    return diversity_all_curve_graph(run_name, at, level, index, chunk_size)
 
 #Sample classification summary callbacks:
 
-def update_assets(barcode, tool, level, other_label):
+def update_assets(run_name, barcode, tool, level, other_label):
     level_dict = {1: "family", 2: "class", 3: "order", 4: "genus", 5: "species"}
-    top_taxa = pd.read_csv("data/" + str(barcode) + "/" + tool + "_report_" + level_dict[level] + ".csv")
+    try:
+        top_taxa = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/" + tool + "_report_" + level_dict[level] + ".csv")
+    except:
+        first_sample = next(os.walk("data/"+ str(run_name) + "/"))[1][0]
+        top_taxa = pd.read_csv("data/" + str(run_name) + "/" + str(first_sample) + "/" + tool + "_report_" + level_dict[level] + ".csv")
+        
     data_table_columns = [{"name": i, "id": i} for i in sorted(top_taxa.columns)],
     if(len(top_taxa)):
         grouped_data = top_taxa.groupby("tax_id",as_index=False).sum().sort_values(by="read_count", ascending= False).reset_index(drop=True)
@@ -544,14 +570,20 @@ def update_assets(barcode, tool, level, other_label):
         graph = go.Figure(bars,layout=go.Layout(barmode='stack'))
         return data, graph
 
-def diversity_curve_graph(at, barcode, level, index, chunk_size):
+def diversity_curve_graph(at, run_name, barcode, level, index, chunk_size):
     level_dict = {1: "family", 2: "class", 3: "order", 4: "genus", 5: "species"}
-    diveristy_time_data = pd.read_csv("data/" + str(barcode) + "/" + at + "_report_full.txt", delimiter="\t",  names=['seq_id', 'tax_id', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'])
+    try:
+        diveristy_time_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/" + at + "_report_full.txt", delimiter="\t",  names=['seq_id', 'tax_id', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'])
+    except:
+        #Conflict between run names and non-updated yet samples list. This lines prevent callback errors
+        first_sample = next(os.walk("data/"+ str(run_name) + "/"))[1][0]
+        diveristy_time_data = pd.read_csv("data/" + str(run_name) + "/" + str(first_sample) + "/" + at + "_report_full.txt", delimiter="\t",  names=['seq_id', 'tax_id', 'kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species'])
+
     diversity_shannon = []
     diversity_simpson = []
     taxa_count= []
     read_count = []
-    for pos in range(int(chunk_size), diveristy_time_data.shape[0], int(chunk_size)):
+    for pos in range(0, diveristy_time_data.shape[0], int(chunk_size)):
         df_subset = diveristy_time_data.iloc[0:pos]
         read_count.append(df_subset.shape[0])
         tax_table = df_subset[level_dict[level]].value_counts()
@@ -585,55 +617,54 @@ def diversity_curve_graph(at, barcode, level, index, chunk_size):
                    yaxis_title='Index')
     return fig
 
-#@app.callback(Output('diversity_curve_plot', 'figure'), 
-#              Input("tabs", "active_tab"), Input("bc_radiochecklist", "value"), Input("tax_level", "value"), 
-#              Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"))
-#def update_diversity_graph(at, barcode, level, index, chunk_size):
-#    return diversity_curve_graph(at, barcode, level, index, chunk_size)
+@app.callback(Output('diversity_curve_plot', 'figure'), 
+              Input("tabs", "active_tab"), Input("bc_radiochecklist_run", "value"),Input("bc_radiochecklist_sample", "value"), Input("tax_level", "value"), 
+              Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"))
+def update_diversity_graph(at, run_name ,barcode, level, index, chunk_size):
+    return diversity_curve_graph(at, run_name, barcode, level, index, chunk_size)
 
 @app.callback(
     Output("alert-auto", "is_open"),
     [Input("alert-toggle-auto", "n_clicks")],
-    [State("alert-auto", "is_open"), State("tabs", "active_tab")],
-)
-def generate_otu(n, is_open, at):
+    [State("bc_radiochecklist_run", "value"), State("alert-auto", "is_open"), State("tabs", "active_tab")])
+def generate_otu(n, run_name, is_open, at):
     samples = []
-    sample_names = next(os.walk("data/"))[1]
+    sample_names = next(os.walk("data/" + str(run_name) + "/"))[1]
     for barcode in sample_names:
-        df = pd.read_csv("data/" + barcode + "/"+ at +"_report_full_otu.txt", delimiter="\t", names=['read_id','tax_id','otu', 'count'])
+        df = pd.read_csv("data/" + str(run_name) + "/" + barcode + "/"+ at +"_report_full_otu.txt", delimiter="\t", names=['read_id','tax_id','otu', 'count'])
         otu_count = df['otu'].value_counts()
-        otu_df = pd.DataFrame(list(zip(otu_count.index.tolist(), otu_count.tolist())), columns = ['tax_id', 'read_count']).transpose()
+        otu_df = pd.DataFrame(list(zip(otu_count.index.tolist(), otu_count.tolist())), columns = ['tax_id', barcode]).transpose()
         otu_df.rename(columns=otu_df.iloc[0], inplace = True)
         samples.append(otu_df.iloc[1:])
 
-    df = reduce(lambda df1,df2: pd.merge(df1,df2,how='outer'), samples)
-    df.transpose().set_axis(sample_names, axis='columns').to_csv("data/" + at +"_otu_table.txt")
+    df = reduce(lambda df1,df2: pd.concat([df1,df2]), samples)
+    df.transpose().set_axis(sample_names, axis='columns').to_csv("data/" + str(run_name) + "/" + at +"_otu_table.txt")
 
     if n:
         return not is_open
     return is_open
 
 
-@app.callback(Output('data_table', 'children'),Output('bar_plot', 'figure'),Output('diversity_table', 'children'), Output('qc_table', 'children'), Output('diversity_curve_plot', 'figure'), 
-              Input("tabs", "active_tab"), Input("bc_radiochecklist", "value"), Input("tax_level", "value"), Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"), Input("other_threshold", "value"))
-def switch_tab(at, barcode, level, index, chunk_size, other_label):
-    data, graph = update_assets(barcode, at, level, other_label)
+@app.callback(Output('data_table', 'children'),Output('bar_plot', 'figure'),Output('card_text_1', 'children'),Output('diversity_table', 'children'), Output('qc_table', 'children'), Output('diversity_curve_plot', 'figure'), 
+              Input("tabs", "active_tab"), Input("bc_radiochecklist_run", "value"), Input("bc_radiochecklist_sample", "value"), Input("tax_level", "value"), Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"), Input("other_threshold", "value"))
+def switch_tab(at, run_name, barcode, level, index, chunk_size, other_label):
+    data, graph = update_assets(run_name, barcode, at, level, other_label)
     level_dict = {1: "family", 2: "class", 3: "order", 4: "genus", 5: "species"}
-    diversity_data = pd.read_csv("data/" + str(barcode) + "/" + at + "_diversity_full_" + level_dict[level] + ".csv", names=["Total reads","Shannon", "Simpson"])
+    diversity_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/" + at + "_diversity_full_" + level_dict[level] + ".csv", names=["Total reads","Shannon", "Simpson"])
     diversity_data_table = dash_table.DataTable(
         data=diversity_data.to_dict('records'),
         columns=[{'id': c, 'name': c} for c in diversity_data.columns],
         #columns=[{'id': 'Shannon', 'name': 'Shannon'}, {'id': 'Simpson', 'name': 'Simpson'}],
         style_cell={'textAlign': 'left', 'padding': '5px'},
         style_as_list_view=True,
-        style_table={'height': 'auto', 'overflowY': 'auto'},
+        style_table={'height': '1500px', 'overflowY': 'auto'},
         page_size=20,
         style_header={
             'fontWeight': 'bold'
         },
     )
 
-    qc_data = pd.read_csv("data/" + str(barcode) + "/qc_report.csv")
+    qc_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/qc_report.csv")
     qc_data_table = dash_table.DataTable(
         data=qc_data.to_dict('records'),
         columns=[{'id': c, 'name': c} for c in qc_data.columns],
@@ -644,9 +675,9 @@ def switch_tab(at, barcode, level, index, chunk_size, other_label):
         },
     )
 
-    diversity_time_fig = diversity_curve_graph(at, barcode, level, index, chunk_size)
+    diversity_time_fig = diversity_curve_graph(at, run_name, barcode, level, index, chunk_size)
 
-    return data, graph, diversity_data_table, qc_data_table, diversity_time_fig
+    return data, graph, 50000, diversity_data_table, qc_data_table, diversity_time_fig
 
 if __name__ == '__main__':
     app.run_server(debug=True)

@@ -6,6 +6,7 @@ nextflow
 work/
 data/
 db/*
+temp/
 results/
 .DS_Store
 tests/
