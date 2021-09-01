@@ -70,7 +70,7 @@ Several generic profiles are bundled with the pipeline which instruct the pipeli
 
 We strongly recommend to use profile configuration files for specifying pipeline parameters and options for the classification steps. Profiles aim to simplify the pipeline execution command and provide an easy way to keep track of parametrization of past runs.
 
-A good starting point for creating your own profile could be coping the content of the included test profile (./conf/test.config) and editing it with the new parameters of choice.
+A good starting point for creating your own profile could be coping the content of the included default profile (./conf/default.config) and editing it with the new parameters of choice.
 
 > We encourage the use of Docker, however when this is not possible, Conda is also supported.
 

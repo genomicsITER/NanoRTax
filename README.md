@@ -6,7 +6,7 @@
 
 ## Introduction
 
-NanoRTax is a taxonomic and diversity analysis pipeline built originally for Nanopore 16S rRNA data with real-time analysis support in mind. It combines state-of-the-art classifiers such as Kraken2, Centrifuge and BLAST with downstream analysis steps to provide a comprehensive output. NanoRTax retrieves the final output files in the same structure/format for every classifier which enables more comprehensive tool/database comparison and better benchmarking capabilities. Additionally, NanoRTax includes a web application (./viz_webapp/) for visualizing complete or in-progress pipeline runs. 
+NanoRTax is a taxonomic and diversity analysis pipeline built originally for Nanopore 16S rRNA data with real-time analysis support in mind. It combines state-of-the-art classifiers such as Kraken2, Centrifuge and BLAST with downstream analysis steps to provide a framework for the analysis of in-progress sequencing runs. NanoRTax retrieves the final output files in the same structure/format for every classifier which enables more comprehensive tool/database comparison and better benchmarking capabilities. Additionally, NanoRTax includes a web application (./viz_webapp/) for visualizing complete or partial pipeline outputs. 
 
 
 The NanoRTax pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It comes with conda environments and docker containers making installation trivial and results highly reproducible.
@@ -57,13 +57,21 @@ Similar to the normal mode but using --reads_rt for input. Partial results store
 
 Note: This mode is intended to work with non-bulk FASTQ files (ie: 500 reads per file) in order to provide a fluid real-time analysis of generated reads. This aspect can be configured before starting the experiment via MinKNOW sequencing software.
 
-v. Visualize partial/complete outputs
+v. Visualize partial/complete outputs using NanoRTax web application (./viz_webapp)
 
-NanoRTax comes with a Python Dash web application which provides interactive visualization of partial and complete results.
+Before running the web application, make sure to have the necessary dependencies installed or use the provided viz_webapp/environment.yml file to build a conda environment (recommended):
+
+```bash
+conda env create -f environment.yml
+conda activate nanortax_webapp
+```
+Start the web application server with the command below and access the interface with a web browser (http://127.0.0.1:8050/ by default).
+
 ```bash
 cd viz_webapp && python dashboard.py
 ```
-Start the web application server with the command above and access the interface with a web browser (http://127.0.0.1:8050/ by default).
+
+
 
 See [usage docs](docs/usage.md) for all of the available options when running the pipeline.
 
