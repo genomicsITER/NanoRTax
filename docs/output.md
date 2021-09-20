@@ -4,7 +4,7 @@ This document describes the output produced by the pipeline.
 
 ## Pipeline overview
 
-**Deafult output directory: `results/`**
+**Default output directory: `results/`**
 
 Inside output directory, sample results are organized based on barcode/sample directory name. The following files can be found there:
 
