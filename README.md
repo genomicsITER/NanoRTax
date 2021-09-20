@@ -53,7 +53,7 @@ c. Real-time mode.
 nextflow run main.nf -profile <default,docker/conda> --reads_rt '/seq_path/fastq_pass/**/*.fastq'
 ```
 
-Similar to the normal mode but using --reads_rt for input. Partial results stored at output directory and are also accesible (.csv files and webapp visualization). In this mode, the workflow will run endlessly, so it needs to be stopped manually by Ctrl+C once all consumed FASTQ files are completely processed.
+Similar to the normal mode but using --reads_rt for input. Partial results are stored in an output directory and are accessible as .csv file and web app visualization files. In this mode, the workflow will run endlessly, so it needs to be stopped manually by Ctrl+C once all  FASTQ files are completely processed.
 
 Note: This mode is intended to work with non-bulk FASTQ files (ie: 500 reads per file) in order to provide a fluid real-time analysis of generated reads. This aspect can be configured before starting the experiment via MinKNOW sequencing software.
 
@@ -85,7 +85,7 @@ The NanoRTax pipeline comes with documentation about the pipeline, found in the 
 
 ## Credits
 
-NanoRTax was originally written by Laura Ciuffreda, Héctor Rodríguez Pérez and Carlos Flores.
+NanoRTax was originally written by Héctor Rodríguez Pérez Laura Ciuffreda and Carlos Flores.
 
 ## Contributions and Support
 
