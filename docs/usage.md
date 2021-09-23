@@ -8,7 +8,7 @@
 * [Main arguments](#main-arguments)
   * [`-name`](#-name)
   * [`-profile`](#-profile)
-  * [`--reads / --reads_rt`](#--reads and --reads_rt)
+  * [`--reads/--reads_rt`](#--reads/--reads_rt)
   * [`--kraken_db`](#--kraken_db)
   * [`--centrifuge_db`](#--centrifuge_db)
   * [`--blast_db`](#--blast_db)
@@ -16,7 +16,7 @@
   * [`--cntrf_min_hitlen`](#--cntrf_min_hitlen)
   * [`--blast_evalue`](#--blast_evalue)
   * [`--blast_max_hsps`](#--blast_max_hsps)
-  * [`--min_read_length --max_read_length`](#--min_read_length --max_read_length)
+  * [`--min_read_length/--max_read_length`](#--min_read_length/--max_read_length)
  
 * [Other command line parameters](#other-command-line-parameters)
   * [`--outdir`](#--outdir)
@@ -95,7 +95,7 @@ If `-profile` is not specified, the pipeline will run locally and expect all sof
 
 <!-- TODO nf-core: Document required command line parameters -->
 
-### `--reads and --reads_rt`
+### `--reads/--reads_rt`
 
 Use this to specify the location of your input FastQ file(s). reads_rt parameter is used for real-time workflows and provide automatic processing of newly generated read files. For example:
 
@@ -143,7 +143,7 @@ https://ccb.jhu.edu/software/centrifuge/manual.shtml
 
 ### `--cntrf_min_hitlen`
 
-The output directory where the results will be saved.
+Minimum length of partial hits, which must be greater than 15.
 
 ### `--blast_evalue`
 
@@ -156,7 +156,7 @@ Maximum number of HSPs (alignments) to keep for any single query-subject pair. T
 
 ## Other command line parameters
 
-### `--min_read_length --max_read_length`
+### `--min_read_length/--max_read_length`
 
 Read length thresholds for the QC step. Default (1400-1700) selects near full-length 16S rRNA reads for more accurate taxonomic classification.
 
