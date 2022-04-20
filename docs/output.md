@@ -1,6 +1,6 @@
 # NanoRTax: Output
 
-This document describes the output produced by the pipeline.
+This page describes the output produced by the pipeline. Final report and diversity files are stored in the ./results directory or a custom directory specified by --out
 
 ## Pipeline overview
 
