@@ -156,6 +156,7 @@ sidebar = html.Div(
         controls,
         html.H5('Run', style=TEXT_STYLE),
         bc_radiolist_run,
+        html.Hr(),
         html.H5('Samples', style=TEXT_STYLE),
         bc_radiolist_sample,
         html.Hr(),

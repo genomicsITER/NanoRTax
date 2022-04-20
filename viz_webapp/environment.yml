@@ -4,13 +4,14 @@ channels:
   - defaults
   - anaconda
 dependencies:
-  - conda-forge::python
-  - conda-forge::dash
-  - conda-forge::dash-core-components
-  - conda-forge::dash-html-components
-  - conda-forge::dash-bootstrap-components
-  - conda-forge::dash-table
-  - anaconda::scikit-bio
-  - plotly::plotly
-  - numpy
-  - pandas
+  - conda-forge::python=3.6.13
+  - conda-forge::typing_extensions=3.10.0.0
+  - conda-forge::dash=1.19.0
+  - conda-forge::dash-core-components=1.15.0
+  - conda-forge::dash-html-components=1.1.2
+  - conda-forge::dash-bootstrap-components=0.12.0
+  - conda-forge::dash-table=4.11.2
+  - anaconda::scikit-bio=0.5.4
+  - plotly::plotly=4.14.3
+  - numpy=1.19.5
+  - pandas=0.22.0
