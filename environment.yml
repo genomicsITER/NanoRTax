@@ -6,16 +6,17 @@ channels:
   - defaults
   - anaconda
 dependencies:
-  - conda-forge::python
-  - conda-forge::markdown
-  - conda-forge::pymdown-extensions
-  - conda-forge::pygments
-  - anaconda::scikit-bio
-  - bioconda::csvtk
-  - bioconda::taxonkit
-  - fastp
-  - kraken2
-  - centrifuge
-  - pandas
-  - blast
-  - gawk
+  - conda-forge::python=3.6.13
+  - conda-forge::markdown=3.3.6
+  - conda-forge::pymdown-extensions=9.3
+  - conda-forge::pygments=2.10.0
+  - conda-forge::typing_extensions=3.10.0.0
+  - anaconda::scikit-bio=0.5.2
+  - bioconda::csvtk=0.23.0
+  - bioconda::taxonkit=0.10.1
+  - bioconda::fastp=0.23.2
+  - bioconda::kraken2=2.1.2
+  - bioconda::centrifuge=1.0.4_beta
+  - conda-forge::pandas=1.1.5
+  - bioconda::blast=2.12.0
+  - conda-forge::gawk=5.1.0
