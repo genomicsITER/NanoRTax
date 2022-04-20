@@ -154,11 +154,12 @@ sidebar = html.Div(
         html.H3('Parameters', style=TEXT_STYLE),
         html.Hr(),
         controls,
-        html.H3('Samples', style=TEXT_STYLE),
+        html.H5('Run', style=TEXT_STYLE),
         bc_radiolist_run,
+        html.H5('Samples', style=TEXT_STYLE),
         bc_radiolist_sample,
         html.Hr(),
-        generate_otu
+        #generate_otu
     ],
     style=SIDEBAR_STYLE,
 )
@@ -359,7 +360,7 @@ tax_info = html.Div(
     [
         dbc.Row([dbc.Col(
                 [#html.H4(children=['Diversity Index']),
-                #html.Div(id='diversity_table')
+                html.Div(id='diversity_table'),
                 content_diversity_curve],
                 width=6,
             ),
@@ -404,7 +405,7 @@ content_layout = html.Div(
     style=CONTENT_STYLE
 )
 
-app = dash.Dash(external_stylesheets=[dbc.themes.LUMEN])
+app = dash.Dash(external_stylesheets=[dbc.themes.LUMEN], suppress_callback_exceptions=True)
 
 app.layout = html.Div([
     html.Div(id='page-content', children=[navbar, content_layout])
@@ -437,8 +438,57 @@ def update_refresh_ratio(n):
     return (int(n) * 1000)
 
 #Update sample list menu
+#Output('qc_cards', 'children'),
 
-@app.callback(Output('bc_radiochecklist_sample', 'options'), Output('bc_radiochecklist_sample', 'value'),Output('qc_cards', 'children'),
+@app.callback(Output('qc_cards', 'children'),
+              Input('bc_radiochecklist_run', 'value'),State('sample_summary', 'active'))
+def update_sample_menu(run_name, active):
+    if(not active):
+        cards = []
+        colors = ['green', 'crimson','red', 'darkred']
+        for barcode in next(os.walk("data/" + str(run_name) + "/"))[1]:
+            qc_data = pd.read_csv("data/" + str(run_name) + "/" + str(barcode) + "/qc_report.csv")
+            bars = [go.Bar(y=[barcode],
+                        x=[qc_data.iloc[0, i]],
+                        name=str(qc_data.columns[i]),
+                        width=0.5,
+                        orientation='h',
+                        marker_color=colors[i]) 
+                        for i in range(0, 4)]
+            graph = go.Figure(bars,layout=go.Layout(barmode='stack'))
+            graph_component = dcc.Graph(figure=graph, style={"height": "260px"})
+            qc_data_table = dash_table.DataTable(
+                data=qc_data.to_dict('records'),
+                columns=[{'id': c, 'name': c} for c in qc_data.columns],
+                style_cell={'textAlign': 'left', 'padding': '5px'},
+                style_as_list_view=True,
+                style_header={
+                    'fontWeight': 'bold'
+                },
+            )
+            card = dbc.Row(
+                dbc.Col(
+                    html.Div(
+                        dbc.Card(
+                            [dbc.CardHeader(barcode),
+                            dbc.CardBody(
+                                [
+                                    qc_data_table,
+                                    graph_component,
+                                ]
+                            )], className="mb-3",color="primary", outline=True
+                            #style={"width": "18rem"},
+                        )
+                    ), width=12
+                )
+            )
+            cards.append(card)
+
+        return cards
+    else:
+        raise PreventUpdate
+
+@app.callback(Output('bc_radiochecklist_sample', 'options'), Output('bc_radiochecklist_sample', 'value'),
               Input('bc_radiochecklist_run', 'value'))
 def update_sample_menu(run_name):
     sample_list = [{"label": barcode, "value":barcode} for barcode in next(os.walk("data/" + str(run_name) + "/"))[1]]
@@ -483,7 +533,7 @@ def update_sample_menu(run_name):
         )
         cards.append(card)
 
-    return sample_list, selected_sample, cards
+    return sample_list, selected_sample
 
 #Index callbacks:
 
@@ -521,9 +571,12 @@ def diversity_all_curve_graph(run_name, at, level, index, chunk_size):
 
 @app.callback(Output('diversity_curve_plot_all', 'figure'), 
               Input("diversity_classifier_checklist", "value"), Input("diversity_tax_level_checklist", "value"), 
-              Input("diversity_index_all_checklist", "value"), Input("chunk_size_all_select", "value"), State("bc_radiochecklist_run", "value"))
-def update_diversity_all_graph(at, level, index, chunk_size, run_name):
-    return diversity_all_curve_graph(run_name, at, level, index, chunk_size)
+              Input("diversity_index_all_checklist", "value"), Input("chunk_size_all_select", "value"), State("bc_radiochecklist_run", "value"), State('sample_summary', 'active'))
+def update_diversity_all_graph(at, level, index, chunk_size, run_name, active):
+    if(not active):
+        return diversity_all_curve_graph(run_name, at, level, index, chunk_size)
+    else:
+        raise PreventUpdate
 
 #Sample classification summary callbacks:
 
@@ -623,29 +676,29 @@ def diversity_curve_graph(at, run_name, barcode, level, index, chunk_size):
 def update_diversity_graph(at, run_name ,barcode, level, index, chunk_size):
     return diversity_curve_graph(at, run_name, barcode, level, index, chunk_size)
 
-@app.callback(
-    Output("alert-auto", "is_open"),
-    [Input("alert-toggle-auto", "n_clicks")],
-    [State("bc_radiochecklist_run", "value"), State("alert-auto", "is_open"), State("tabs", "active_tab")])
-def generate_otu(n, run_name, is_open, at):
-    samples = []
-    sample_names = next(os.walk("data/" + str(run_name) + "/"))[1]
-    for barcode in sample_names:
-        df = pd.read_csv("data/" + str(run_name) + "/" + barcode + "/"+ at +"_report_full_otu.txt", delimiter="\t", names=['read_id','tax_id','otu', 'count'])
-        otu_count = df['otu'].value_counts()
-        otu_df = pd.DataFrame(list(zip(otu_count.index.tolist(), otu_count.tolist())), columns = ['tax_id', barcode]).transpose()
-        otu_df.rename(columns=otu_df.iloc[0], inplace = True)
-        samples.append(otu_df.iloc[1:])
+# @app.callback(
+#     Output("alert-auto", "is_open"),
+#     [Input("alert-toggle-auto", "n_clicks")],
+#     [State("bc_radiochecklist_run", "value"), State("alert-auto", "is_open")])
+# def generate_otu(n, run_name, is_open):
+#     samples = []
+#     sample_names = next(os.walk("data/" + str(run_name) + "/"))[1]
+#     for barcode in sample_names:
+#         df = pd.read_csv("data/" + str(run_name) + "/" + barcode + "/" + "report_full_otu.txt", delimiter="\t", names=['read_id','tax_id','otu', 'count'])
+#         otu_count = df['otu'].value_counts()
+#         otu_df = pd.DataFrame(list(zip(otu_count.index.tolist(), otu_count.tolist())), columns = ['tax_id', barcode]).transpose()
+#         otu_df.rename(columns=otu_df.iloc[0], inplace = True)
+#         samples.append(otu_df.iloc[1:])
 
-    df = reduce(lambda df1,df2: pd.concat([df1,df2]), samples)
-    df.transpose().set_axis(sample_names, axis='columns').to_csv("data/" + str(run_name) + "/" + at +"_otu_table.txt")
+#     df = reduce(lambda df1,df2: pd.concat([df1,df2]), samples)
+#     #df.transpose().set_axis(sample_names, axis='columns').to_csv("data/" + str(run_name) + "/" + at +"_otu_table.txt")
 
-    if n:
-        return not is_open
-    return is_open
+#     if n:
+#         return not is_open
+#     return is_open
 
 
-@app.callback(Output('data_table', 'children'),Output('bar_plot', 'figure'),Output('card_text_1', 'children'),Output('diversity_table', 'children'), Output('qc_table', 'children'), Output('diversity_curve_plot', 'figure'), 
+@app.callback(Output('data_table', 'children'),Output('bar_plot', 'figure'),
               Input("tabs", "active_tab"), Input("bc_radiochecklist_run", "value"), Input("bc_radiochecklist_sample", "value"), Input("tax_level", "value"), Input("diversity_index_checklist", "value"), Input("chunk_size_select", "value"), Input("other_threshold", "value"))
 def switch_tab(at, run_name, barcode, level, index, chunk_size, other_label):
     data, graph = update_assets(run_name, barcode, at, level, other_label)
@@ -678,9 +731,9 @@ def switch_tab(at, run_name, barcode, level, index, chunk_size, other_label):
         },
     )
 
-    diversity_time_fig = diversity_curve_graph(at, run_name, barcode, level, index, chunk_size)
+    #diversity_time_fig = diversity_curve_graph(at, run_name, barcode, level, index, chunk_size)
 
-    return data, graph, 50000, diversity_data_table, qc_data_table, diversity_time_fig
+    return data, graph
 
 if __name__ == '__main__':
     app.run_server(debug=True)

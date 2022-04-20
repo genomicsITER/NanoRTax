@@ -318,7 +318,7 @@ process read_binning_kraken {
 
     """
     sed '/^@/s/.\s./_/g' ${fastq_qced} > krkinput.fastq
-    kraken2 --db $krkdb --use-names --threads 4 krkinput.fastq > krakenreport.txt
+    kraken2 --db $krkdb --use-names --threads $task.cpus krkinput.fastq > krakenreport.txt
     echo "seq_id" > seq_ids.txt 
     awk -F "\\t" '{print \$2}' krakenreport.txt >> seq_ids.txt       
     gawk -F "\\t" 'match(\$0, /\\(taxid\s([0-9]+)\\)/, ary) {print ary[1]}' krakenreport.txt | taxonkit lineage > lineage.txt
@@ -394,7 +394,6 @@ process agg_kraken_diversity {
 
 if(blast_clsf) {
   process read_binning_blast {
-    cpus 32
     publishDir "${params.outdir}/${run_name}/${barcode}/", mode: 'copy'
     input: 
       tuple val(barcode), file(fastq_qced) from fastq_qced_blast
@@ -417,7 +416,7 @@ if(blast_clsf) {
       export BLASTDB=
       export BLASTDB=\$BLASTDB:${taxdb_dir}
       sed -n '1~4s/^@/>/p;2~4p' $fastq_qced > out.fasta
-      blastn -query out.fasta -db ${db} -num_threads 32 -task blastn -dust no -outfmt "10 qseqid staxids evalue length pident" -evalue ${params.blast_evalue} -max_hsps ${params.blast_max_hsps} -max_target_seqs 4 | awk 'NR % 5 == 0' | sed 's/,/;/g' > ${barcode}_blastreport.txt
+      blastn -query out.fasta -db ${db} -num_threads $task.cpus -task blastn -dust no -outfmt "10 qseqid staxids evalue length pident" -evalue ${params.blast_evalue} -max_hsps ${params.blast_max_hsps} -max_target_seqs 4 | awk 'NR % 5 == 0' | sed 's/,/;/g' > ${barcode}_blastreport.txt
 
       echo "seq_id" > seq_ids.txt 
       awk -F ";" '{print \$1}' ${barcode}_blastreport.txt >> seq_ids.txt       
@@ -510,7 +509,6 @@ process output_documentation {
     markdown_to_html.py $output_docs -o results_description.html
     """
 }
-
 /*
  * Completion e-mail notification
  */
