@@ -17,7 +17,7 @@
   * [`--blast_evalue`](#--blast_evalue)
   * [`--blast_max_hsps`](#--blast_max_hsps)
   * [`--min_read_length/--max_read_length`](#--min_read_length/--max_read_length)
- 
+
 * [Other command line parameters](#other-command-line-parameters)
   * [`--outdir`](#--outdir)
   * [`-name`](#-name)
@@ -66,11 +66,13 @@ Use a name to identify all the samples/barcodes contained in the pipeline run. T
 
 Use this parameter to choose a configuration profile. Profiles can give configuration and parameters presets for different compute environments or use cases.
 
+**We strongly recommend using profile configuration files for specifying the pipeline parameters and options for the classification steps, instead of writing the whole set of arguments in the command line. Profiles aim to simplify the pipeline execution command and provide an easy way to keep track of parametrization of past runs.**
+
+Apart from NanoRtax parameters, profile configuration files can be used to tune performance options such as the cpu threads an memory limits for each process. Check the Nextflow documentation for more information.
+
 Several generic profiles are bundled with the pipeline and instruct it to use software packages using different methods (Docker, Conda). A "test" profile is also included with preloaded parameters for running a testing execution of NanoRTax
 
-We strongly recommend using profile configuration files for specifying pipeline parameters and options for the classification steps. Profiles aim to simplify the pipeline execution command and provide an easy way to keep track of parametrization of past runs.
-
-A good starting point for creating your own profile could be copying the content of the included default profile (./conf/default.config) and editing it with the new parameters of choice.
+<u>A good starting point for creating your own profile could be copying the content of the included default profile (./conf/default.config) and editing it with the new parameters of choice.</u>
 
 > We encourage the use of Docker, however when this is not possible, Conda is also supported.
 
@@ -93,24 +95,29 @@ If `-profile` is not specified, the pipeline will run locally and expect all sof
   * A profile with a complete configuration for automated testing using all classifiers and default parameters
   * Edit this file to quickly set up your own configuration for the classification workflow
 
-<!-- TODO nf-core: Document required command line parameters -->
-
 ### `--reads/--reads_rt`
 
-Use this to specify the location of your input FastQ file(s). reads_rt parameter is used for real-time workflows and provide automatic processing of newly generated read files. For example:
+Use this to specify the location of your input FastQ file(s). For example:
 
 ```bash
 --reads '/seq_path/fastq_pass/**/*.fastq'
 --reads_rt '/seq_path/fastq_pass/**/*.fastq'
 ```
 
+IMPORTANT: **--reads_rt** parameter is used for real-time workflows and provide automatic processing of newly generated read files in the specified directory. When using this mode, the pipeline must be terminated manually (using Ctrl+C in the command line) once all the read files have been generated and fully processed.
+
 Please note the following requirements:
 
 1. The path must be enclosed in quotes
 2. The path may have `*` wildcard characters for selecting several directories/read files
 
+*If left unspecified, NanoRTax will load the testing dataset (check conf/test.config)*
 
-If left unspecified, NanoRTax will load the testing dataset (check conf/test.config)
+### `--kraken/--centrifuge/--blast`
+
+Use these flags in the command line or set true/false in the configuration profile for enabling or disabling an specific classifier for the analysis. 
+
+<u>Important: When facing a complete run analysis or a real-time execution, make sure that you have enough computing resources when enabling the BLAST classifier in the analysis.</u>
 
 ## Database selection command line parameters
 

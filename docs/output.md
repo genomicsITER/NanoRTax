@@ -27,4 +27,7 @@ Get the conda environment for the webapp and start the server:
 ```bash
 cd viz_webapp && python dashboard.py
 ```
-Access the interface with a web browser (http://127.0.0.1:8050/ by default).
+Access the interface with a web browser (http://127.0.0.1:8050/ by default):
+
+![sample_info](./docs/images/sample_info.png)
+
