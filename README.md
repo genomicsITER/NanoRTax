@@ -1,8 +1,10 @@
-# NanoRTax
+![](./docs/images/nanortax_logo.png)
 
 **Real-time analysis pipeline for nanopore 16S rRNA data**.
 
-[![Docker](https://img.shields.io/docker/automated/hecrp/nanortax.svg)](https://hub.docker.com/r/hecrp/nanortax)
+
+
+<img src="./docs/images/nanortax_workflow.png" style="zoom: 40%;" />
 
 ## Introduction
 
@@ -65,13 +67,11 @@ Before running the web application, make sure to have the necessary dependencies
 conda env create -f environment.yml
 conda activate nanortax_webapp
 ```
-Start the web application server with the command below and access the interface with a web browser (http://127.0.0.1:8050/ by default).
+Start the **web application** server with the command below and access the interface with a web browser (http://127.0.0.1:8050/ by default).
 
 ```bash
 cd viz_webapp && python dashboard.py
 ```
-
-
 
 See [usage docs](docs/usage.md) for all of the available options when running the pipeline.
 
