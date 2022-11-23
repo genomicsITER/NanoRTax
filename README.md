@@ -22,6 +22,9 @@ ii. Install either [`Docker`](https://docs.docker.com/engine/installation/) for 
 iii. Download the pipeline and example databases and test it on a minimal dataset with a single command
 
 ```bash
+#UPDATE:Taxonomic data necessary for taxonkit
+wget ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+tar -xzvf taxdump.tar.gz -C db/
 #BLAST database
 mkdir db db/taxdb
 wget https://ftp.ncbi.nlm.nih.gov/blast/db/16S_ribosomal_RNA.tar.gz && tar -xzvf 16S_ribosomal_RNA.tar.gz -C db
