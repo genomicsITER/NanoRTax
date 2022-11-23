@@ -212,6 +212,7 @@ if(centrifuge_clsf) {
           db_dir = "/tmp/"
       }
       db=db_dir + params.centrifuge_db
+      taxondb = db_dir + params.taxonkit_db
       """
       sed 's/-/_/g' $fastq_qced > seqs.fastq
       centrifuge -x ${db} \
@@ -224,9 +225,9 @@ if(centrifuge_clsf) {
                 -k 5
       echo "seq_id" > seq_ids.txt 
       sed 1d ${barcode}_cntrfreport.txt | awk -F "\t" '{print \$1}' >> seq_ids.txt       
-      sed 1d ${barcode}_cntrfreport.txt | awk -F "\t" '{print \$3}' | taxonkit lineage  > lineage.txt
-      cat lineage.txt | taxonkit reformat | csvtk -H -t cut -f 1,3 | csvtk -H -t sep -f 2 -s ';' -R > seq_tax.txt
-      cat lineage.txt | taxonkit reformat -P | csvtk -H -t cut -f 1,3 > seq_tax_otu.txt
+      sed 1d ${barcode}_cntrfreport.txt | awk -F "\t" '{print \$3}' | taxonkit lineage --data-dir $taxondb  > lineage.txt
+      cat lineage.txt | taxonkit reformat --data-dir $taxondb | csvtk -H -t cut -f 1,3 | csvtk -H -t sep -f 2 -s ';' -R > seq_tax.txt
+      cat lineage.txt | taxonkit reformat -P --data-dir $taxondb | csvtk -H -t cut -f 1,3 > seq_tax_otu.txt
       # Columns: tax_id,kindom,phylum,class,order,family,genus,species
       paste seq_ids.txt seq_tax.txt > centrifuge_report_annotated.txt
       paste seq_ids.txt seq_tax_otu.txt > centrifuge_report_annotated_otu.txt
@@ -315,15 +316,16 @@ process read_binning_kraken {
         db_dir = "/tmp/"
     }
     krkdb = db_dir + params.kraken_db
+    taxondb = db_dir + params.taxonkit_db
 
     """
     sed '/^@/s/.\s./_/g' ${fastq_qced} > krkinput.fastq
     kraken2 --db $krkdb --use-names --threads $task.cpus krkinput.fastq > krakenreport.txt
     echo "seq_id" > seq_ids.txt 
     awk -F "\\t" '{print \$2}' krakenreport.txt >> seq_ids.txt       
-    gawk -F "\\t" 'match(\$0, /\\(taxid\s([0-9]+)\\)/, ary) {print ary[1]}' krakenreport.txt | taxonkit lineage > lineage.txt
-    cat lineage.txt | taxonkit reformat | csvtk -H -t cut -f 1,3 | csvtk -H -t sep -f 2 -s ';' -R > seq_tax.txt
-    cat lineage.txt | taxonkit reformat -P | csvtk -H -t cut -f 1,3 > seq_tax_otu.txt
+    gawk -F "\\t" 'match(\$0, /\\(taxid\s([0-9]+)\\)/, ary) {print ary[1]}' krakenreport.txt | taxonkit lineage --data-dir $taxondb > lineage.txt
+    cat lineage.txt | taxonkit reformat  --data-dir $taxondb | csvtk -H -t cut -f 1,3 | csvtk -H -t sep -f 2 -s ';' -R > seq_tax.txt
+    cat lineage.txt | taxonkit reformat -P  --data-dir $taxondb | csvtk -H -t cut -f 1,3 > seq_tax_otu.txt
     paste seq_ids.txt seq_tax.txt > kraken_report_annotated.txt
     paste seq_ids.txt seq_tax_otu.txt > kraken_report_annotated_otu.txt
     """
@@ -412,6 +414,7 @@ if(blast_clsf) {
       }
       db=db_dir + params.blast_db
       taxdb_dir = taxdb_dir + params.blast_taxdb
+      taxondb = db_dir + params.taxonkit_db
       """
       export BLASTDB=
       export BLASTDB=\$BLASTDB:${taxdb_dir}
@@ -420,9 +423,9 @@ if(blast_clsf) {
 
       echo "seq_id" > seq_ids.txt 
       awk -F ";" '{print \$1}' ${barcode}_blastreport.txt >> seq_ids.txt       
-      awk -F ";" '{print \$2}' ${barcode}_blastreport.txt | taxonkit lineage  > lineage.txt
-      cat lineage.txt | taxonkit reformat | csvtk -H -t cut -f 1,3 | csvtk -H -t sep -f 2 -s ';' -R > seq_tax.txt
-      cat lineage.txt | taxonkit reformat -P | csvtk -H -t cut -f 1,3 > seq_tax_otu.txt
+      awk -F ";" '{print \$2}' ${barcode}_blastreport.txt | taxonkit lineage --data-dir $taxondb  > lineage.txt
+      cat lineage.txt | taxonkit reformat --data-dir $taxondb | csvtk -H -t cut -f 1,3 | csvtk -H -t sep -f 2 -s ';' -R > seq_tax.txt
+      cat lineage.txt | taxonkit reformat -P --data-dir $taxondb | csvtk -H -t cut -f 1,3 > seq_tax_otu.txt
       # Columns: tax_id,kindom,phylum,class,order,family,genus,species
       paste seq_ids.txt seq_tax.txt > blast_report_annotated.txt
       paste seq_ids.txt seq_tax_otu.txt > blast_report_annotated_otu.txt
