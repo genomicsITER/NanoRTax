@@ -88,7 +88,9 @@ The NanoRTax pipeline comes with documentation about the pipeline, found in the 
 
 ## Credits
 
-NanoRTax was originally written by Héctor Rodríguez Pérez Laura Ciuffreda and Carlos Flores.
+Rodríguez-Pérez H, Ciuffreda L, Flores C. NanoRTax, a real-time pipeline for taxonomic and diversity analysis of nanopore 16S rRNA amplicon sequencing data. Comput Struct Biotechnol J. 2022;20:5350-5354. doi: https://doi.org/10.1016/j.csbj.2022.09.024
+
+This work was supported by Instituto de Salud Carlos III [PI14/00844, PI17/00610, and FI18/00230] and co-financed by the European Regional Development Funds, “A way of making Europe” from the European Union; Ministerio de Ciencia e Innovación [RTC-2017–6471-1, AEI/FEDER, UE]; Cabildo Insular de Tenerife [CGIEU0000219140]; Fundación Canaria Instituto de Investigación Sanitaria de Canarias [PIFUN48/18]; and by the agreement with Instituto Tecnológico y de Energías Renovables (ITER) to strengthen scientific and technological education, training, research, development and innovation in Genomics, Personalized Medicine and Biotechnology [OA17/008].
 
 ## Contributions and Support
 
